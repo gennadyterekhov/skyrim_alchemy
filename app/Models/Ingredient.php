@@ -8,7 +8,6 @@ use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Ingredient extends Model
 {
-    use HasFactory;
     public $timestamps = false;
     public const COUNT = 91;
 

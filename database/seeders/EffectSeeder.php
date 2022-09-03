@@ -20,8 +20,6 @@ class EffectSeeder extends Seeder
         $transRow = true;
         while (($data = fgetcsv($csvData, 0, ',')) !== false) {
             if (!$transRow) {
-                // Name,Id,Effect,Magnitude,Value
-                assert(count($data) === 5);
                 Effect::create([
                     'name' => $data['0'],
                     'id' => $data['1'],
