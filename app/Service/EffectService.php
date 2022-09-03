@@ -18,4 +18,12 @@ final class EffectService
 
         return $effect;
     }
+
+    /**
+     * @return Effect[]
+     */
+    public static function list(): array
+    {
+        return Effect::all()->toArray();
+    }
 }
