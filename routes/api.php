@@ -62,15 +62,3 @@ Route::get('/ingredients', function () {
 
     return response()->json($ingredients);
 });
-
-
-/*
-|--------------------------------------------------------------------------
-| temp TODO remove later
-|--------------------------------------------------------------------------
-|
-*/
-
-Route::get('/test', function () {
-    return 'test';
-});

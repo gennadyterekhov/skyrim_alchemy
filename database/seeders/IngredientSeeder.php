@@ -17,12 +17,10 @@ class IngredientSeeder extends Seeder
     public function run()
     {
         Ingredient::truncate();
-        $csvData = fopen(base_path('database/csv/ingredients_with_foreign_keys.csv'), 'r');
+        $csvData = fopen(base_path('database/csv/ingredients.csv'), 'r');
         $transRow = true;
         while (($data = fgetcsv($csvData, 0, ',')) !== false) {
             if (!$transRow) {
-                // id,name,effect_1_id,effect_2_id,effect_3_id,effect_4_id,weight,value
-                assert(count($data) === 8);
                 Ingredient::create([
                     'id' => $data['0'],
                     'name' => $data['1'],
