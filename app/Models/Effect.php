@@ -19,8 +19,8 @@ class Effect extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
         'id',
+        'name',
         'text',
         'magnitude',
         'value',
