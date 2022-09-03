@@ -5,6 +5,7 @@
 /storage/*.key
 /vendor
 .env
+.env.testing
 .env.backup
 .phpunit.result.cache
 Homestead.json
@@ -15,3 +16,4 @@ yarn-error.log
 /.idea
 /.vscode
 /.editorconfig
+/.php-cs-fixer.cache

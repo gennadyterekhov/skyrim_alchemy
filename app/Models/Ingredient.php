@@ -2,17 +2,16 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Database\Eloquent\Relations\HasOne;
 
 class Ingredient extends Model
 {
     use HasFactory;
     public $timestamps = false;
+    public const COUNT = 91;
+
     /**
      * The attributes that are mass assignable.
      *
@@ -31,8 +30,10 @@ class Ingredient extends Model
      * @var array<int, string>
      */
     protected $hidden = [
-//        'password',
-//        'remember_token',
+        'effect_1_id',
+        'effect_2_id',
+        'effect_3_id',
+        'effect_4_id',
     ];
 
     /**
@@ -41,6 +42,28 @@ class Ingredient extends Model
      * @var array<string, string>
      */
     protected $casts = [
-//        'email_verified_at' => 'datetime',
+        'id' => 'string',
+        'weight' => 'double',
+        'value' => 'int',
     ];
+
+    public function effect_1(): HasOne
+    {
+        return $this->hasOne(Effect::class, 'id', 'effect_1_id');
+    }
+
+    public function effect_2()
+    {
+        return $this->hasOne(Effect::class, 'id', 'effect_2_id');
+    }
+
+    public function effect_3()
+    {
+        return $this->hasOne(Effect::class, 'id', 'effect_3_id');
+    }
+
+    public function effect_4()
+    {
+        return $this->hasOne(Effect::class, 'id', 'effect_4_id');
+    }
 }

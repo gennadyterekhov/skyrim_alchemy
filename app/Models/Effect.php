@@ -2,16 +2,15 @@
 
 namespace App\Models;
 
-// use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
-use Laravel\Sanctum\HasApiTokens;
+use Illuminate\Database\Eloquent\Relations\HasMany;
 
 class Effect extends Model
 {
     use HasFactory;
+    public const COUNT = 55;
+
     public $timestamps = false;
     /**
      * The attributes that are mass assignable.
@@ -19,8 +18,8 @@ class Effect extends Model
      * @var array<int, string>
      */
     protected $fillable = [
-        'name',
         'id',
+        'name',
         'text',
         'magnitude',
         'value',
@@ -32,8 +31,6 @@ class Effect extends Model
      * @var array<int, string>
      */
     protected $hidden = [
-//        'password',
-//        'remember_token',
     ];
 
     /**
@@ -42,6 +39,13 @@ class Effect extends Model
      * @var array<string, string>
      */
     protected $casts = [
-//        'email_verified_at' => 'datetime',
+        'id' => 'string',
+        'magnitude' => 'int',
+        'value' => 'int',
     ];
+
+    public function ingredients(): HasMany
+    {
+        return $this->hasMany(Ingredient::class);
+    }
 }
