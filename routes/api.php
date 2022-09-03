@@ -1,5 +1,8 @@
 <?php
 
+use App\Helper\AssertHelper;
+use App\Models\Effect;
+use App\Service\EffectService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -16,4 +19,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('/effects/{id}', function (Request $request, string $id) {
+    $effect = EffectService::findByIdOrFail($id);
+
+    return $effect->toJson();
+});
+
+Route::get('/test', function () {
+    return 'test';
 });
