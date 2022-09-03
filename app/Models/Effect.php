@@ -43,5 +43,6 @@ class Effect extends Model
      */
     protected $casts = [
 //        'email_verified_at' => 'datetime',
+        'id' => 'string',
     ];
 }

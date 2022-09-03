@@ -24,8 +24,15 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/effects/{id}', function (Request $request, string $id) {
     $effect = EffectService::findByIdOrFail($id);
 
-    return $effect->toJson();
+    return response()->json($effect);
 });
+
+Route::get('/effects', function () {
+    $effects = EffectService::list();
+
+    return response()->json($effects);
+});
+
 
 Route::get('/test', function () {
     return 'test';
