@@ -24,6 +24,10 @@ final class EffectService
      */
     public static function list(): array
     {
+
+
+//        $res = Effect::all()->toArray();
+//        dump($res);
         return Effect::all()->toArray();
     }
 }

@@ -1,5 +1,7 @@
 <?php
 
+use App\Service\EffectService;
+use App\Service\IngredientService;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -16,3 +18,44 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+/*
+|--------------------------------------------------------------------------
+| Effects
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/effects/{id}', function (string $id) {
+    $effect = EffectService::findByIdOrFail($id);
+
+    return view('effects/effect', $effect->toArray());
+});
+
+Route::get('/effects', function () {
+    $effects = EffectService::list();
+
+    return view('effects/effects', ['effects' => $effects]);
+});
+
+
+/*
+|--------------------------------------------------------------------------
+| Ingredients
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/ingredients/{id}', function (string $id) {
+    $ingredient = IngredientService::findByIdOrFail($id);
+
+    return view('ingredients/ingredient', $ingredient->toArray());
+});
+
+Route::get('/ingredients', function () {
+    $ingredients = IngredientService::list();
+
+    return view('ingredients/ingredients', ['ingredients' => $ingredients]);
+});
+
