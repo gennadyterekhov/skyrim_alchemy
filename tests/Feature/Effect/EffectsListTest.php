@@ -2,19 +2,22 @@
 
 namespace Tests\Feature\Effect;
 
+use App\Models\Effect;
 use Tests\TestCase;
 
-final class ShowEffectTest extends TestCase
+final class EffectsListTest extends TestCase
 {
-    public function test_can_get_effect(): void
+    public function test_can_get_effects_list(): void
     {
-        $response = $this->get('/api/effects/000ae723');
+        $response = $this->get('/api/effects');
 
         $response->assertStatus(200);
         $responseData = json_decode($response->getContent(), true);
 
         $this->assertIsArray($responseData);
-        $this->assertSerialization($responseData);
+        $this->assertDatabaseCount(Effect::class, Effect::COUNT);
+        $this->assertCount(Effect::COUNT, $responseData);
+        $this->assertSerialization($responseData[0]);
     }
 
     private function assertSerialization(array $responseData): void

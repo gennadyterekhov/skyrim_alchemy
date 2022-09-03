@@ -10,6 +10,7 @@ class Ingredient extends Model
 {
     use HasFactory;
     public $timestamps = false;
+    public const COUNT = 91;
 
     /**
      * The attributes that are mass assignable.

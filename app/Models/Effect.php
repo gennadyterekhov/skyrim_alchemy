@@ -9,6 +9,8 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 class Effect extends Model
 {
     use HasFactory;
+    public const COUNT = 55;
+
     public $timestamps = false;
     /**
      * The attributes that are mass assignable.
