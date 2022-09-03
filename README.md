@@ -12,7 +12,6 @@ This app wraps a database of skyrim alchemy effects and ingredients
 ### How to run
 
 Set environment variables in `.env` file. There is an example file `.env.example`  
-`./vendor/bin sail up`  
 
 Start containers  
 `./vendor/bin sail up`  
