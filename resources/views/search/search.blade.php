@@ -12,7 +12,7 @@
                 @endif
                 @foreach ($effects as $effect)
 
-                    <x-effect.card-small :effect="$effect"></x-effect.card-small>
+                    <x-effect.card-micro :effect="$effect"></x-effect.card-micro>
 
                     <br />
 
@@ -29,7 +29,7 @@
                 @endif
                 @foreach ($ingredients as $ingredient)
 
-                    <x-ingredient.card-small :ingredient="$ingredient"></x-ingredient.card-small>
+                    <x-ingredient.card-micro :ingredient="$ingredient"></x-ingredient.card-micro>
 
                     <br />
 

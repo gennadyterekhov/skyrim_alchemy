@@ -34,8 +34,9 @@ Route::get('/export-csv', function () {
 
 Route::get('/effects/{id}', function (string $id) {
     $effect = EffectService::findByIdOrFail($id);
+    $ingredients = IngredientService::listByEffect($id);
 
-    return view('effects/effect', ['effect' => $effect->toArray()]);
+    return view('effects/effect', ['effect' => $effect->toArray(), 'ingredients' => $ingredients]);
 });
 
 Route::get('/effects', function () {
@@ -54,8 +55,19 @@ Route::get('/effects', function () {
 
 Route::get('/ingredients/{id}', function (string $id) {
     $ingredient = IngredientService::findByIdOrFail($id);
+    $commonIngredients1 = IngredientService::listByEffect($ingredient->effect_1_id);
+    $commonIngredients2 = IngredientService::listByEffect($ingredient->effect_2_id);
+    $commonIngredients3 = IngredientService::listByEffect($ingredient->effect_3_id);
+    $commonIngredients4 = IngredientService::listByEffect($ingredient->effect_4_id);
 
-    return view('ingredients/ingredient', ['ingredient' => $ingredient->toArray()]);
+    return view('ingredients/ingredient', [
+        'ingredient' => $ingredient->toArray(),
+        'commonIngredients1' => $commonIngredients1,
+        'commonIngredients2' => $commonIngredients2,
+        'commonIngredients3' => $commonIngredients3,
+        'commonIngredients4' => $commonIngredients4,
+
+    ]);
 });
 
 Route::get('/ingredients', function () {

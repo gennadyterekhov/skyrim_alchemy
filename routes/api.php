@@ -58,6 +58,12 @@ Route::get('/ingredients/{id}', function (string $id) {
     return response()->json($ingredient);
 });
 
+Route::get('/ingredients/by-effect/{id}', function (string $id) {
+    $ingredients = IngredientService::listByEffect($id);
+
+    return response()->json($ingredients);
+});
+
 Route::get('/ingredients', function () {
     $ingredients = IngredientService::list();
 
