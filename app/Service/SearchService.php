@@ -39,14 +39,19 @@ final class SearchService
 
     private static function searchIngredients(string $searchQuery): array
     {
-        return Ingredient::query()->whereRaw(
-            'LOWER(id) LIKE :searchQuery OR LOWER(name) LIKE :searchQuery',
-            ['searchQuery' => "%$searchQuery%",]
-        )->orderByRaw(
-            'CASE WHEN LOWER(name) LIKE :searchQuery  THEN 1
+        return Ingredient::query()
+            ->with('effect_1')
+            ->with('effect_2')
+            ->with('effect_3')
+            ->with('effect_4')
+            ->whereRaw(
+                'LOWER(id) LIKE :searchQuery OR LOWER(name) LIKE :searchQuery',
+                ['searchQuery' => "%$searchQuery%",]
+            )->orderByRaw(
+                'CASE WHEN LOWER(name) LIKE :searchQuery  THEN 1
              WHEN LOWER(id) LIKE :searchQuery THEN 2
              ELSE 3 END
              ASC',
-        )->get()->toArray();
+            )->get()->toArray();
     }
 }

@@ -1,13 +1,15 @@
 <x-layout>
 
-    <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+    <div class="row">
 
         @foreach ($effects as $effect)
-            <x-effect.card-small :effect="$effect"></x-effect.card-small>
+            <div class="col-md-4 col-sm-6 col-12 my-3">
+                <x-effect.card-small :effect="$effect"></x-effect.card-small>
+            </div>
             <br />
         @endforeach
-
     </div>
+
 </x-layout>
 
 

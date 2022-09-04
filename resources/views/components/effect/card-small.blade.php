@@ -1,11 +1,15 @@
-@if($onlyName)
-    <div><a href="/effects/{{ $effect['id'] }}">{{ $effect['name'] }}</a></div>
-@else
-<div><b>Effect <a href="/effects/{{ $effect['id'] }}">{{ $effect['id'] }}</a>:</b></div>
-<div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-    <span>name: {{ $effect['name'] }}</span><br>
-    <span>description: {{ $effect['text'] }}</span><br>
-    <span>magnitude: {{ $effect['magnitude'] }}</span><br>
-    <span>value: {{ $effect['value'] }}</span><br>
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title"><a href="/effects/{{ $effect['id'] }}">{{ $effect['name'] }}</a></h5>
+
+        <h6 class="card-subtitle mb-2 text-muted">{{ $effect['id'] }}</h6>
+
+        <div class="card-text">
+            <span>description: {{ $effect['text'] }}</span><br>
+            <span>magnitude: {{ $effect['magnitude'] }}</span><br>
+            <span>value: {{ $effect['value'] }}</span><br>
+        </div>
+
+    </div>
+
 </div>
-@endif
