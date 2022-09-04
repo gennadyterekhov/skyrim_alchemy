@@ -4,6 +4,7 @@ use App\Helper\AssertHelper;
 use App\Models\Effect;
 use App\Service\EffectService;
 use App\Service\IngredientService;
+use App\Service\SearchService;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -61,4 +62,18 @@ Route::get('/ingredients', function () {
     $ingredients = IngredientService::list();
 
     return response()->json($ingredients);
+});
+
+
+/*
+|--------------------------------------------------------------------------
+| Search
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/search', function (Request $request) {
+    $data = SearchService::search($request);
+
+    return response()->json($data);
 });

@@ -2,6 +2,8 @@
 
 use App\Service\EffectService;
 use App\Service\IngredientService;
+use App\Service\SearchService;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -33,7 +35,7 @@ Route::get('/export-csv', function () {
 Route::get('/effects/{id}', function (string $id) {
     $effect = EffectService::findByIdOrFail($id);
 
-    return view('effects/effect', $effect->toArray());
+    return view('effects/effect', ['effect' => $effect->toArray()]);
 });
 
 Route::get('/effects', function () {
@@ -62,3 +64,16 @@ Route::get('/ingredients', function () {
     return view('ingredients/ingredients', ['ingredients' => $ingredients]);
 });
 
+
+/*
+|--------------------------------------------------------------------------
+| Search
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/search', function (Request $request) {
+    $data = SearchService::search($request);
+
+    return view('search/search', ['effects' => $data['effects'], 'ingredients' => $data['ingredients']]);
+});
