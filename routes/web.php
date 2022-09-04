@@ -19,6 +19,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/export-csv', function () {
+    return view('export-csv');
+});
 
 /*
 |--------------------------------------------------------------------------
