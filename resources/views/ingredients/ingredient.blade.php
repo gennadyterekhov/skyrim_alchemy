@@ -13,33 +13,26 @@
             <h2>Effects:</h2>
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 Effect 1
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <span>id: {{ $effect_1['id'] }}</span><br>
-                    <span>name: {{ $effect_1['name'] }}</span><br>
-                </div>
+                <x-effect.card-small :effect="$effect_1" onlyName="true"></x-effect.card-small>
+
             </div>
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 Effect 2
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <span>id: {{ $effect_2['id'] }}</span><br>
-                    <span>name: {{ $effect_2['name'] }}</span><br>
-                </div>
+                <x-effect.card-small :effect="$effect_2" onlyName="true"></x-effect.card-small>
+
+
             </div>
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 Effect 3
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <span>id: {{ $effect_3['id'] }}</span><br>
-                    <span>name: {{ $effect_3['name'] }}</span><br>
-                </div>
+                <x-effect.card-small :effect="$effect_3" onlyName="true"></x-effect.card-small>
+
             </div>
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 Effect 4
-                <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                    <span>id: {{ $effect_4['id'] }}</span><br>
-                    <span>name: {{ $effect_4['name'] }}</span><br>
-                </div>
+                <x-effect.card-small :effect="$effect_4" onlyName="true"></x-effect.card-small>
+
             </div>
 
         </div>

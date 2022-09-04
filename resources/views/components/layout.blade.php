@@ -54,26 +54,21 @@
                     <span>Home</span>
                 </a>
 
-
                 <ul class="nav col-6 justify-content-center">
                     <li><a href="/effects" class="nav-link px-2 link-dark">Effects</a></li>
                     <li><a href="/ingredients" class="nav-link px-2 link-dark">Ingredients</a></li>
                     <li><a href="/export-csv" class="nav-link px-2 link-dark">Export CSV</a></li>
                 </ul>
 
-
                 <div class="col-3 justify-content-center ">
-                    <form class="" role="search">
-                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    <form class="" role="search" METHOD="GET" action="/search">
+                        <input type="search" name="search" class="form-control" placeholder="Search..." aria-label="Search">
                     </form>
                 </div>
             </div>
 
         </div>
     </header>
-
-
-
 
 
     {{-- class="relative flex items-top justify-center min-h-screen bg-gray-100  sm:items-center py-4 sm:pt-0" --}}
