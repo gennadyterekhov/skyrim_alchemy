@@ -55,7 +55,7 @@ Route::get('/effects', function () {
 Route::get('/ingredients/{id}', function (string $id) {
     $ingredient = IngredientService::findByIdOrFail($id);
 
-    return view('ingredients/ingredient', $ingredient->toArray());
+    return view('ingredients/ingredient', ['ingredient' => $ingredient->toArray()]);
 });
 
 Route::get('/ingredients', function () {

@@ -3,21 +3,17 @@
     <div class="container">
         <h1>Results for "{{ request()->query('search') }}":</h1>
 
-
         <div class="row">
 
             <div class="col">
                 <h5>Effects:</h5>
+                @if (count($effects) === 0)
+                    <x-card.nothing-found></x-card.nothing-found>
+                @endif
                 @foreach ($effects as $effect)
 
+                    <x-effect.card-small :effect="$effect"></x-effect.card-small>
 
-                    <div><b>Effect <a href="/effects/{{ $effect['id'] }}">{{ $effect['id'] }}</a>:</b></div>
-                    <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                        <span>name: {{ $effect['name'] }}</span><br>
-                        <span>description: {{ $effect['text'] }}</span><br>
-                        <span>magnitude: {{ $effect['magnitude'] }}</span><br>
-                        <span>value: {{ $effect['value'] }}</span><br>
-                    </div>
                     <br />
 
 
@@ -28,16 +24,14 @@
 
             <div class="col">
                 <h5>Ingredients:</h5>
+                @if (count($ingredients) === 0)
+                    <x-card.nothing-found></x-card.nothing-found>
+                @endif
                 @foreach ($ingredients as $ingredient)
 
-                    <div><b>Ingredient <a href="/ingredients/{{ $ingredient['id'] }}">{{ $ingredient['id'] }}</a>:</b></div>
-                    <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                        <span>name: {{ $ingredient['name'] }}</span><br>
-                        <span>weight: {{ $ingredient['weight'] }}</span><br>
-                        <span>value: {{ $ingredient['value'] }}</span><br>
-                    </div>
-                    <br />
+                    <x-ingredient.card-small :ingredient="$ingredient"></x-ingredient.card-small>
 
+                    <br />
 
                 @endforeach
             </div>
