@@ -17,7 +17,7 @@ class IngredientSeeder extends Seeder
     public function run()
     {
         Ingredient::truncate();
-        $csvData = fopen(base_path('database/csv/ingredients.csv'), 'r');
+        $csvData = fopen(base_path('public/csv/ingredients.csv'), 'r');
         $transRow = true;
         while (($data = fgetcsv($csvData, 0, ',')) !== false) {
             if (!$transRow) {
