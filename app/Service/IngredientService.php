@@ -34,4 +34,17 @@ final class IngredientService
             ->with('effect_4')
             ->get()->toArray();
     }
+
+    public static function listByEffect(string $effectId): array
+    {
+        return Ingredient::with('effect_1')
+            ->with('effect_2')
+            ->with('effect_3')
+            ->with('effect_4')
+            ->where('effect_1_id', '=', $effectId)
+            ->orWhere('effect_2_id', '=', $effectId)
+            ->orWhere('effect_3_id', '=', $effectId)
+            ->orWhere('effect_4_id', '=', $effectId)
+            ->get()->toArray();
+    }
 }
