@@ -16,7 +16,7 @@ class EffectSeeder extends Seeder
     public function run()
     {
         Effect::truncate();
-        $csvData = fopen(base_path('database/csv/effects.csv'), 'r');
+        $csvData = fopen(base_path('public/csv/effects.csv'), 'r');
         $transRow = true;
         while (($data = fgetcsv($csvData, 0, ',')) !== false) {
             if (!$transRow) {
