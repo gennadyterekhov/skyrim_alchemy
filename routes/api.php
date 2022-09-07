@@ -1,7 +1,5 @@
 <?php
 
-use App\Helper\AssertHelper;
-use App\Models\Effect;
 use App\Service\EffectService;
 use App\Service\IngredientService;
 use App\Service\SearchService;
@@ -18,10 +16,6 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
 
 
 /*
