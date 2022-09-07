@@ -15,7 +15,15 @@ Set environment variables in `.env` file. There is an example file `.env.example
 
 Start containers  
 `./vendor/bin sail up`  
-  
+
+Enter php container  
+`docker-compose exec php-laravel bash`
+
+Inside the container:
+
+Run migrations  
+`php artisan migrate`
+
 Then populate the database  
 `php artisan db:seed`
 
