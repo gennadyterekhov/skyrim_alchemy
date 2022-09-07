@@ -25,6 +25,10 @@ Route::get('/export-csv', function () {
     return view('export-csv');
 });
 
+Route::get('/api-doc', function (Request $request) {
+    return view('api-doc');
+});
+
 /*
 |--------------------------------------------------------------------------
 | Effects
