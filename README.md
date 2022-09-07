@@ -22,6 +22,11 @@ Then populate the database
 
 App will be available at  <a href="https://localhost" alt="localhost">localhost</a>
 
+## CSV sources
+The database is imported from csv files, you can find them here   
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/csv  
+  
+If you want to update the database, send an issue.
 ## License
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT).
