@@ -1,6 +1,7 @@
 <?php
 
 use App\Service\EffectService;
+use App\Service\ExportService;
 use App\Service\IngredientService;
 use App\Service\SearchService;
 use Illuminate\Http\Request;
@@ -74,6 +75,20 @@ Route::get('/ingredients', function () {
 
 Route::get('/search', function (Request $request) {
     $data = SearchService::search($request);
+
+    return response()->json($data);
+});
+
+
+/*
+|--------------------------------------------------------------------------
+| Export
+|--------------------------------------------------------------------------
+|
+*/
+
+Route::get('/export/json', function (Request $request) {
+    $data = ExportService::exportJson($request);
 
     return response()->json($data);
 });
