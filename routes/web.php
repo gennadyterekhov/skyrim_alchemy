@@ -21,8 +21,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/export-csv', function () {
-    return view('export-csv');
+Route::get('/export', function () {
+    return view('export');
 });
 
 Route::get('/api-doc', function (Request $request) {

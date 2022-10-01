@@ -31,7 +31,7 @@
                 <ul class="nav col-6 justify-content-center">
                     <li><a href="/effects" class="nav-link px-2 link-dark">Effects</a></li>
                     <li><a href="/ingredients" class="nav-link px-2 link-dark">Ingredients</a></li>
-                    <li><a href="/export-csv" class="nav-link px-2 link-dark">Export CSV</a></li>
+                    <li><a href="/export" class="nav-link px-2 link-dark">Export</a></li>
                 </ul>
 
                 <div class="col-3 justify-content-center ">
