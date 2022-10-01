@@ -7,7 +7,7 @@
         <p>
             This app wraps a database of skyrim alchemy effects and ingredients.<br>
             It has all the items from the base game, but newer things from the DLCs might not be present.<br>
-            You can <a href="/export-csv">export CSV</a> files to explore the database yourself.<br>
+            You can <a href="/export">export</a> CSV files or JSON to explore the database yourself.<br>
             <br>
             There is also API: <a href="/api-doc">documentation</a>
 
