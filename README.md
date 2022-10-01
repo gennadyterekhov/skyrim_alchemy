@@ -33,8 +33,10 @@ App will be available at  <a href="https://localhost" alt="localhost">localhost<
 ## CSV sources
 The database is imported from csv files, you can find them here   
 https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/csv  
-  
-If you want to update the database, send an issue.
+
+Or one big JSON file  
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/json
+
 ## License
 
 Licensed under the [MIT license](https://opensource.org/licenses/MIT).
