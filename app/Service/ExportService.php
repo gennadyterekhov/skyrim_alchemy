@@ -17,6 +17,8 @@ final class ExportService
     private static function dbToArray(): array
     {
         $effects = Effect::all()->toArray();
+        $effects = self::populateWithIngredients($effects);
+
         $ingredients = Ingredient::all()->makeVisible([
             'effect_1_id',
             'effect_2_id',
@@ -43,5 +45,16 @@ final class ExportService
         }
 
         return $indexedData;
+    }
+
+    private static function populateWithIngredients(array $effects): array
+    {
+        foreach ($effects as &$effectArray) {
+            $id = $effectArray['id'];
+            $ingredientsWithThisEffect = IngredientService::listByEffect($id);
+            $ingredientIds = array_map(static fn (array $ingredient) => $ingredient['id'], $ingredientsWithThisEffect);
+            $effectArray['ingredients'] = $ingredientIds;
+        }
+        return $effects;
     }
 }
