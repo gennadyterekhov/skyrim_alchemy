@@ -5,11 +5,11 @@
 </a>
 </p>
 
-## Skyrim alchemy
+# Skyrim alchemy
 
 This app wraps a database of skyrim alchemy effects and ingredients
 
-### How to run
+## How to run
 
 Set environment variables in `.env` file. There is an example file `.env.example`  
 
@@ -30,12 +30,17 @@ Then populate the database
 
 App will be available at  <a href="https://localhost" alt="localhost">localhost</a>
 
-## CSV sources
+## Export
+### Skyrim
+#### CSV
 The database is imported from csv files, you can find them here   
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/csv  
-
-Or one big JSON file  
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/json
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/skyrim/effects.csv   
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/skyrim/ingredients.csv
+#### JSON
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/skyrim/skyrim.json
+### Morrowind
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/morrowind/morrowind.json  
+Credit goes to https://github.com/hogart/alchemy
 
 ## License
 
