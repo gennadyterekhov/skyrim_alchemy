@@ -35,8 +35,13 @@ final class IngredientService
             ->get()->toArray();
     }
 
-    public static function listByEffect(string $effectId): array
+    public static function listByEffect(string $effectId, ?int $effectNumber = null): array
     {
+        if ($effectNumber <= 4 && $effectNumber >= 1) {
+            return Ingredient::with("effect_$effectNumber")
+                ->where("effect_{$effectNumber}_id", '=', $effectId)
+                ->get()->toArray();
+        }
         return Ingredient::with('effect_1')
             ->with('effect_2')
             ->with('effect_3')
