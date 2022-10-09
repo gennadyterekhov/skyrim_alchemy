@@ -34,12 +34,12 @@ App will be available at  <a href="https://localhost" alt="localhost">localhost<
 ### Skyrim
 #### CSV
 The database is imported from csv files, you can find them here   
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/skyrim/effects.csv   
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/skyrim/ingredients.csv
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/effects.csv   
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/ingredients.csv
 #### JSON
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/skyrim/skyrim.json
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/skyrim.json
 ### Morrowind
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/export-files/morrowind/morrowind.json  
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/morrowind/morrowind.json  
 Credit goes to https://github.com/hogart/alchemy
 
 ## License
