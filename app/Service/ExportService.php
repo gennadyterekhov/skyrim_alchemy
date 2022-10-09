@@ -51,9 +51,17 @@ final class ExportService
     {
         foreach ($effects as &$effectArray) {
             $id = $effectArray['id'];
-            $ingredientsWithThisEffect = IngredientService::listByEffect($id);
-            $ingredientIds = array_map(static fn (array $ingredient) => $ingredient['id'], $ingredientsWithThisEffect);
-            $effectArray['ingredients'] = $ingredientIds;
+            $effectArray['ingredients'] = [
+                [], [], [], [],
+            ];
+            for ($i = 0; $i < 4; ++$i) {
+                $ingredientsWithThisEffectInIthPlace = IngredientService::listByEffect($id, $i + 1);
+                $ingredientIds = array_map(
+                    static fn (array $ingredient) => $ingredient['id'],
+                    $ingredientsWithThisEffectInIthPlace
+                );
+                $effectArray['ingredients'][$i] = $ingredientIds;
+            }
         }
         return $effects;
     }
