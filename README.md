@@ -31,6 +31,7 @@ Then populate the database
 App will be available at  <a href="https://localhost" alt="localhost">localhost</a>
 
 ## Export
+
 ### Skyrim
 #### CSV
 The database is imported from csv files, you can find them here   
@@ -38,6 +39,11 @@ https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/
 https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/ingredients.csv
 #### JSON
 https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/skyrim.json
+
+### Oblivion
+https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/oblivion/oblivion.json  
+Credit goes to https://github.com/hogart/alchemy
+
 ### Morrowind
 https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/morrowind/morrowind.json  
 Credit goes to https://github.com/hogart/alchemy

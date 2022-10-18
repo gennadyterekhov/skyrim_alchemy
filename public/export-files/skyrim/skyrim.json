@@ -1,6 +1,6 @@
 {
     "effects": {
-        "000ae723": {
+        "Cure Disease": {
             "id": "000ae723",
             "name": "Cure Disease",
             "text": "Cures all diseases",
@@ -8,19 +8,19 @@
             "value": 21,
             "ingredients": [
                 [
-                    "000e7ed0"
+                    "Hawk Feathers"
                 ],
                 [
-                    "00052695",
-                    "0006bc00"
+                    "Charred Skeever Hide",
+                    "Mudcrab Chitin"
                 ],
                 [],
                 [
-                    "0003ad76"
+                    "Vampire Dust"
                 ]
             ]
         },
-        "0003eb42": {
+        "Damage Health": {
             "id": "0003eb42",
             "name": "Damage Health",
             "text": "Causes poison damage",
@@ -28,30 +28,30 @@
             "value": 3,
             "ingredients": [
                 [
-                    "000b701a",
-                    "000516c8",
-                    "0003ad5d",
-                    "001016b3",
-                    "000b18cd",
-                    "0004da23",
-                    "0002f44c",
-                    "00059b86",
-                    "00106e1a"
+                    "Crimson Nirnroot",
+                    "Deathbell",
+                    "Falmer Ear",
+                    "Human Flesh",
+                    "Human Heart",
+                    "Imp Stool",
+                    "Nightshade",
+                    "Nirnroot",
+                    "River Betty"
                 ],
                 [],
                 [
-                    "0003ad6f",
-                    "0003ad60"
+                    "Skeever Tail",
+                    "Void Salts"
                 ],
                 [
-                    "0003ad63",
-                    "00077e1d",
-                    "0006bc0b",
-                    "0003ad72"
+                    "Ectoplasm",
+                    "Red Mountain Flower",
+                    "Small Antlers",
+                    "Troll Fat"
                 ]
             ]
         },
-        "0003a2b6": {
+        "Damage Magicka": {
             "id": "0003a2b6",
             "name": "Damage Magicka",
             "text": "Drains the target's Magicka",
@@ -59,27 +59,27 @@
             "value": 52,
             "ingredients": [
                 [
-                    "0003ad73",
-                    "0003ad66",
-                    "00057f91",
-                    "000727df",
-                    "0004da24",
-                    "0007edf5"
+                    "Glow Dust",
+                    "Hagraven Feathers",
+                    "Hanging Moss",
+                    "Luna Moth Wing",
+                    "Namira's Rot",
+                    "Nordic Barnacle"
                 ],
                 [
-                    "000b18cd"
+                    "Human Heart"
                 ],
                 [
-                    "0003ad56",
-                    "0003ad5b",
-                    "0006bc07"
+                    "Chaurus Eggs",
+                    "Daedra Heart",
+                    "Eye of Sabre Cat"
                 ],
                 [
-                    "000727e0"
+                    "Butterfly Wing"
                 ]
             ]
         },
-        "00073f2b": {
+        "Damage Magicka Regen": {
             "id": "00073f2b",
             "name": "Damage Magicka Regen",
             "text": "Decrease target's Magicka regeneration by 100%",
@@ -87,26 +87,26 @@
             "value": 265,
             "ingredients": [
                 [
-                    "00063b5f"
+                    "Spriggan Sap"
                 ],
                 [
-                    "00023d77",
-                    "0003ad73",
-                    "0002f44c",
-                    "0009151b"
+                    "Chicken's Egg",
+                    "Glow Dust",
+                    "Nightshade",
+                    "Spider Egg"
                 ],
                 [
-                    "000727de",
-                    "00057f91",
-                    "000b18cd"
+                    "Blue Butterfly Wing",
+                    "Hanging Moss",
+                    "Human Heart"
                 ],
                 [
-                    "0006bc02",
-                    "00077e1c"
+                    "Bear Claws",
+                    "Blue Mountain Flower"
                 ]
             ]
         },
-        "0003a2c6": {
+        "Damage Stamina": {
             "id": "0003a2c6",
             "name": "Damage Stamina",
             "text": "Drain the target's Stamina",
@@ -114,25 +114,25 @@
             "value": 43,
             "ingredients": [
                 [
-                    "0004da25",
-                    "000727de",
-                    "00034cdd",
-                    "0006abcb",
-                    "00106e19",
-                    "0003ad64",
-                    "0009151b"
+                    "Blisterwort",
+                    "Blue Butterfly Wing",
+                    "Bone Meal",
+                    "Canis Root",
+                    "Cyrodilic Spadetail",
+                    "Giant's Toe",
+                    "Spider Egg"
                 ],
                 [
-                    "000b701a",
-                    "00059b86"
+                    "Crimson Nirnroot",
+                    "Nirnroot"
                 ],
                 [
-                    "0007e8c8"
+                    "Rock Warbler Egg"
                 ],
                 []
             ]
         },
-        "00073f2c": {
+        "Damage Stamina Regen": {
             "id": "00073f2c",
             "name": "Damage Stamina Regen",
             "text": "Decrease target's Stamina regeneration by 100%",
@@ -140,26 +140,26 @@
             "value": 159,
             "ingredients": [
                 [
-                    "0003ad6f"
+                    "Skeever Tail"
                 ],
                 [
-                    "000b2183",
-                    "0003ad5b",
-                    "00106e1c"
+                    "Creep Cluster",
+                    "Daedra Heart",
+                    "Silverside Perch"
                 ],
                 [
-                    "00106e18",
-                    "0004b0ba"
+                    "Histcarp",
+                    "Wheat"
                 ],
                 [
-                    "00034d32",
-                    "0003ad64",
-                    "0005076e",
-                    "0006bc0a"
+                    "Frost Mirriam",
+                    "Giant's Toe",
+                    "Juniper Berries",
+                    "Large Antlers"
                 ]
             ]
         },
-        "00073f20": {
+        "Fear": {
             "id": "00073f20",
             "name": "Fear",
             "text": "Creatures and people flee for 30 seconds",
@@ -169,17 +169,17 @@
                 [],
                 [],
                 [
-                    "00106e19",
-                    "0004da24"
+                    "Cyrodilic Spadetail",
+                    "Namira's Rot"
                 ],
                 [
-                    "000e4f0c",
-                    "0003ad5b",
-                    "0006bc10"
+                    "Blue Dartwing",
+                    "Daedra Heart",
+                    "Powdered Mammoth Tusk"
                 ]
             ]
         },
-        "0003eb24": {
+        "Fortify Alteration": {
             "id": "0003eb24",
             "name": "Fortify Alteration",
             "text": "Alteration spells last longer for 60 seconds",
@@ -188,17 +188,17 @@
             "ingredients": [
                 [],
                 [
-                    "00106e1a"
+                    "River Betty"
                 ],
                 [
-                    "00083e64"
+                    "Grass Pod"
                 ],
                 [
-                    "00063b5f"
+                    "Spriggan Sap"
                 ]
             ]
         },
-        "0003eb23": {
+        "Fortify Barter": {
             "id": "0003eb23",
             "name": "Fortify Barter",
             "text": "You haggle for better prices for 30 seconds",
@@ -207,17 +207,17 @@
             "ingredients": [
                 [],
                 [
-                    "000727e0",
-                    "000889a2"
+                    "Butterfly Wing",
+                    "Dragon's Tongue"
                 ],
                 [],
                 [
-                    "0006b689",
-                    "0003f7f8"
+                    "Hagraven Claw",
+                    "Tundra Cotton"
                 ]
             ]
         },
-        "0003eb1c": {
+        "Fortify Block": {
             "id": "0003eb1c",
             "name": "Fortify Block",
             "text": "Blocking absorbs more damage for 60 seconds",
@@ -226,20 +226,20 @@
             "ingredients": [
                 [],
                 [
-                    "0004da20",
-                    "0003ad61",
-                    "000b08c5",
-                    "000854fe"
+                    "Bleeding Crown",
+                    "Briar Heart",
+                    "Honeycomb",
+                    "Pearl"
                 ],
                 [
-                    "0003f7f8"
+                    "Tundra Cotton"
                 ],
                 [
-                    "0003ad70"
+                    "Slaughterfish Scales"
                 ]
             ]
         },
-        "0003eb01": {
+        "Fortify Carry Weight": {
             "id": "0003eb01",
             "name": "Fortify Carry Weight",
             "text": "Carrying capacity increases for 300 seconds",
@@ -249,18 +249,18 @@
                 [],
                 [],
                 [
-                    "000b2183",
-                    "0003ad64",
-                    "000e7ebc",
-                    "0006bc0e"
+                    "Creep Cluster",
+                    "Giant's Toe",
+                    "Hawk Beak",
+                    "Wisp Wrappings"
                 ],
                 [
-                    "00106e1a",
-                    "0006f950"
+                    "River Betty",
+                    "Scaly Pholiota"
                 ]
             ]
         },
-        "0003eb25": {
+        "Fortify Conjuration": {
             "id": "0003eb25",
             "name": "Fortify Conjuration",
             "text": "Conjuration spells last longer for 60 seconds",
@@ -269,20 +269,20 @@
             "ingredients": [
                 [],
                 [
-                    "000727de",
-                    "00077e1c",
-                    "0003ad66"
+                    "Blue Butterfly Wing",
+                    "Blue Mountain Flower",
+                    "Hagraven Feathers"
                 ],
                 [
-                    "00034cdd"
+                    "Bone Meal"
                 ],
                 [
-                    "0003ad5f",
-                    "00045c28"
+                    "Frost Salts",
+                    "Lavender"
                 ]
             ]
         },
-        "0003eb26": {
+        "Fortify Destruction": {
             "id": "0003eb26",
             "name": "Fortify Destruction",
             "text": "Destruction spells deal more damage for 60 seconds",
@@ -291,20 +291,20 @@
             "ingredients": [
                 [],
                 [
-                    "0003ad63",
-                    "0007ee01",
-                    "0006bc0e"
+                    "Ectoplasm",
+                    "Glowing Mushroom",
+                    "Wisp Wrappings"
                 ],
                 [
-                    "0003ad73"
+                    "Glow Dust"
                 ],
                 [
-                    "000a9191",
-                    "0002f44c"
+                    "Beehive Husk",
+                    "Nightshade"
                 ]
             ]
         },
-        "0003eb29": {
+        "Fortify Enchanting": {
             "id": "0003eb29",
             "name": "Fortify Enchanting",
             "text": "For 30 seconds items are enchanted stronger",
@@ -313,18 +313,18 @@
             "ingredients": [
                 [],
                 [
-                    "0001b3bd",
-                    "00063b5f"
+                    "Snowberries",
+                    "Spriggan Sap"
                 ],
                 [
-                    "0006b689"
+                    "Hagraven Claw"
                 ],
                 [
-                    "000727de"
+                    "Blue Butterfly Wing"
                 ]
             ]
         },
-        "0003eaf3": {
+        "Fortify Health": {
             "id": "0003eaf3",
             "name": "Fortify Health",
             "text": "Health is increased for 60(300) seconds",
@@ -333,20 +333,20 @@
             "ingredients": [
                 [],
                 [
-                    "0006bc02",
-                    "0003ad64",
-                    "00057f91",
-                    "0004b0ba"
+                    "Bear Claws",
+                    "Giant's Toe",
+                    "Hanging Moss",
+                    "Wheat"
                 ],
                 [
-                    "00077e1c"
+                    "Blue Mountain Flower"
                 ],
                 [
-                    "0007ee01"
+                    "Glowing Mushroom"
                 ]
             ]
         },
-        "0003eb1e": {
+        "Fortify Heavy Armor": {
             "id": "0003eb1e",
             "name": "Fortify Heavy Armor",
             "text": "Increase Heavy Armor skill for 60 seconds",
@@ -355,19 +355,19 @@
             "ingredients": [
                 [],
                 [
-                    "0003ad6a",
-                    "0006bc04",
-                    "0004da22"
+                    "Ice Wraith Teeth",
+                    "Sabre Cat Tooth",
+                    "White Cap"
                 ],
                 [
-                    "0003ad70"
+                    "Slaughterfish Scales"
                 ],
                 [
-                    "000134aa"
+                    "Thistle Branch"
                 ]
             ]
         },
-        "0003eb27": {
+        "Fortify Illusion": {
             "id": "0003eb27",
             "name": "Fortify Illusion",
             "text": "Illusion spells are stronger for 60 seconds",
@@ -376,19 +376,19 @@
             "ingredients": [
                 [],
                 [
-                    "000f11c0",
-                    "0006f950",
-                    "0003ad71"
+                    "Dwarven Oil",
+                    "Scaly Pholiota",
+                    "Taproot"
                 ],
                 [
-                    "000889a2"
+                    "Dragon's Tongue"
                 ],
                 [
-                    "000ec870"
+                    "Mora Tapinella"
                 ]
             ]
         },
-        "0003eb1f": {
+        "Fortify Light Armor": {
             "id": "0003eb1f",
             "name": "Fortify Light Armor",
             "text": "Increases Light Armor skill for 60 seconds",
@@ -397,19 +397,19 @@
             "ingredients": [
                 [],
                 [
-                    "000a9191",
-                    "000e7ed0",
-                    "000727df"
+                    "Beehive Husk",
+                    "Hawk Feathers",
+                    "Luna Moth Wing"
                 ],
                 [
-                    "000b08c5"
+                    "Honeycomb"
                 ],
                 [
-                    "0003ad6f"
+                    "Skeever Tail"
                 ]
             ]
         },
-        "0003eb21": {
+        "Fortify Lockpicking": {
             "id": "0003eb21",
             "name": "Fortify Lockpicking",
             "text": "Lockpicking is easier for 30 seconds",
@@ -418,18 +418,18 @@
             "ingredients": [
                 [],
                 [
-                    "0004da24",
-                    "00023d6f"
+                    "Namira's Rot",
+                    "Pine Thrush Egg"
                 ],
                 [
-                    "0009151b"
+                    "Spider Egg"
                 ],
                 [
-                    "0003ad5d"
+                    "Falmer Ear"
                 ]
             ]
         },
-        "0003eaf8": {
+        "Fortify Magicka": {
             "id": "0003eaf8",
             "name": "Fortify Magicka",
             "text": "Magicka is increased for 60 seconds",
@@ -438,21 +438,21 @@
             "ingredients": [
                 [],
                 [
-                    "00106e18",
-                    "0006ac4a",
-                    "0003f7f8"
+                    "Histcarp",
+                    "Jazbay Grapes",
+                    "Tundra Cotton"
                 ],
                 [
-                    "0003ad63",
-                    "00077e1d"
+                    "Ectoplasm",
+                    "Red Mountain Flower"
                 ],
                 [
-                    "0003ad61",
-                    "0003ad60"
+                    "Briar Heart",
+                    "Void Salts"
                 ]
             ]
         },
-        "0003eb1b": {
+        "Fortify Marksman": {
             "id": "0003eb1b",
             "name": "Fortify Marksman",
             "text": "Bows do more damage for 60 seconds",
@@ -461,18 +461,18 @@
             "ingredients": [
                 [],
                 [
-                    "00034d31",
-                    "0005076e"
+                    "Elves Ear",
+                    "Juniper Berries"
                 ],
                 [
-                    "0006abcb"
+                    "Canis Root"
                 ],
                 [
-                    "0009151b"
+                    "Spider Egg"
                 ]
             ]
         },
-        "0003eb19": {
+        "Fortify One Handed": {
             "id": "0003eb19",
             "name": "Fortify One Handed",
             "text": "One-handed weapons do more damage for 60 seconds",
@@ -481,20 +481,20 @@
             "ingredients": [
                 [],
                 [
-                    "0006abcb",
-                    "0007e8c8",
-                    "00085500"
+                    "Canis Root",
+                    "Rock Warbler Egg",
+                    "Small Pearl"
                 ],
                 [
-                    "0006bc02",
-                    "000e7ed0"
+                    "Bear Claws",
+                    "Hawk Feathers"
                 ],
                 [
-                    "00057f91"
+                    "Hanging Moss"
                 ]
             ]
         },
-        "0003eb20": {
+        "Fortify Pickpocket": {
             "id": "0003eb20",
             "name": "Fortify Pickpocket",
             "text": "Pickpocketing is easier for 60 seconds",
@@ -503,18 +503,18 @@
             "ingredients": [
                 [],
                 [
-                    "000e4f0c",
-                    "0007e8c5"
+                    "Blue Dartwing",
+                    "Slaughterfish Egg"
                 ],
                 [
-                    "000bb956"
+                    "Orange Dartwing"
                 ],
                 [
-                    "0007edf5"
+                    "Nordic Barnacle"
                 ]
             ]
         },
-        "0003eb28": {
+        "Fortify Restoration": {
             "id": "0003eb28",
             "name": "Fortify Restoration",
             "text": "Restoration spells are stronger for 60 seconds",
@@ -523,19 +523,19 @@
             "ingredients": [
                 [],
                 [
-                    "00106e19",
-                    "00034cdf",
-                    "0006bc0b"
+                    "Cyrodilic Spadetail",
+                    "Salt Pile",
+                    "Small Antlers"
                 ],
                 [
-                    "00085500"
+                    "Small Pearl"
                 ],
                 [
-                    "00106e1b"
+                    "Abecean Longfin"
                 ]
             ]
         },
-        "0003eb1d": {
+        "Fortify Smithing": {
             "id": "0003eb1d",
             "name": "Fortify Smithing",
             "text": "For 30 seconds weapon and armor improving is better",
@@ -545,16 +545,16 @@
                 [],
                 [],
                 [
-                    "0007ee01",
-                    "0006bc04",
-                    "00063b5f"
+                    "Glowing Mushroom",
+                    "Sabre Cat Tooth",
+                    "Spriggan Sap"
                 ],
                 [
-                    "0004da25"
+                    "Blisterwort"
                 ]
             ]
         },
-        "0003eb22": {
+        "Fortify Sneak": {
             "id": "0003eb22",
             "name": "Fortify Sneak",
             "text": "You are harder to detect for 60 seconds",
@@ -563,21 +563,21 @@
             "ingredients": [
                 [],
                 [
-                    "00106e1b",
-                    "00034d32",
-                    "0006bc10",
-                    "00077e1e"
+                    "Abecean Longfin",
+                    "Frost Mirriam",
+                    "Powdered Mammoth Tusk",
+                    "Purple Mountain Flower"
                 ],
                 [
-                    "000a9191"
+                    "Beehive Husk"
                 ],
                 [
-                    "000e7ed0",
-                    "001016b3"
+                    "Hawk Feathers",
+                    "Human Flesh"
                 ]
             ]
         },
-        "0003eaf9": {
+        "Fortify Stamina": {
             "id": "0003eaf9",
             "name": "Fortify Stamina",
             "text": "Stamina is increased for 60 seconds",
@@ -586,19 +586,19 @@
             "ingredients": [
                 [],
                 [
-                    "0003ad56",
-                    "00034d22",
-                    "0006bc0a",
-                    "00045c28"
+                    "Chaurus Eggs",
+                    "Garlic",
+                    "Large Antlers",
+                    "Lavender"
                 ],
                 [],
                 [
-                    "0007e8c5",
-                    "0004da73"
+                    "Slaughterfish Egg",
+                    "Torchbug Thorax"
                 ]
             ]
         },
-        "0003eb1a": {
+        "Fortify Two Handed": {
             "id": "0003eb1a",
             "name": "Fortify Two Handed",
             "text": "Two-handed weapons do more damage for 60 seconds",
@@ -607,16 +607,16 @@
             "ingredients": [
                 [],
                 [
-                    "0004da00",
-                    "0003ad72"
+                    "Fly Amanita",
+                    "Troll Fat"
                 ],
                 [],
                 [
-                    "000889a2"
+                    "Dragon's Tongue"
                 ]
             ]
         },
-        "00073f29": {
+        "Frenzy": {
             "id": "00073f29",
             "name": "Frenzy",
             "text": "Creatures and people will attack anything nearby for 10 seconds",
@@ -625,20 +625,20 @@
             "ingredients": [
                 [],
                 [
-                    "0004da25",
-                    "0003ad5d"
+                    "Blisterwort",
+                    "Falmer Ear"
                 ],
                 [
-                    "0004da00",
-                    "0003ad66",
-                    "0003ad72"
+                    "Fly Amanita",
+                    "Hagraven Feathers",
+                    "Troll Fat"
                 ],
                 [
-                    "000b18cd"
+                    "Human Heart"
                 ]
             ]
         },
-        "0003eb3d": {
+        "Invisibility": {
             "id": "0003eb3d",
             "name": "Invisibility",
             "text": "Invisibility",
@@ -646,21 +646,21 @@
             "value": 261,
             "ingredients": [
                 [
-                    "0003ad76"
+                    "Vampire Dust"
                 ],
                 [],
                 [
-                    "000b701a",
-                    "0003ad6a",
-                    "00059b86"
+                    "Crimson Nirnroot",
+                    "Ice Wraith Teeth",
+                    "Nirnroot"
                 ],
                 [
-                    "0003ad56",
-                    "000727df"
+                    "Chaurus Eggs",
+                    "Luna Moth Wing"
                 ]
             ]
         },
-        "0010aa4a": {
+        "Lingering Damage Health": {
             "id": "0010aa4a",
             "name": "Lingering Damage Health",
             "text": "Causes poison damage for 10 seconds",
@@ -669,19 +669,19 @@
             "ingredients": [
                 [],
                 [
-                    "0004da23",
-                    "000ec870",
-                    "0003ad70"
+                    "Imp Stool",
+                    "Mora Tapinella",
+                    "Slaughterfish Scales"
                 ],
                 [
-                    "0007e8c5"
+                    "Slaughterfish Egg"
                 ],
                 [
-                    "000bb956"
+                    "Orange Dartwing"
                 ]
             ]
         },
-        "0010de5f": {
+        "Lingering Damage Magicka": {
             "id": "0010de5f",
             "name": "Lingering Damage Magicka",
             "text": "Drains the target's Magicka for 10 seconds",
@@ -690,19 +690,19 @@
             "ingredients": [
                 [],
                 [
-                    "0006b689",
-                    "0007e8b7",
-                    "0004da73"
+                    "Hagraven Claw",
+                    "Swamp Fungal Pod",
+                    "Torchbug Thorax"
                 ],
                 [
-                    "00077e1e"
+                    "Purple Mountain Flower"
                 ],
                 [
-                    "0004b0ba"
+                    "Wheat"
                 ]
             ]
         },
-        "0010de5e": {
+        "Lingering Damage Stamina": {
             "id": "0010de5e",
             "name": "Lingering Damage Stamina",
             "text": "Drain the target's Stamina for 10 seconds",
@@ -712,16 +712,16 @@
                 [],
                 [],
                 [
-                    "000727e0",
-                    "0002f44c",
-                    "0006bc0b"
+                    "Butterfly Wing",
+                    "Nightshade",
+                    "Small Antlers"
                 ],
                 [
-                    "00023d77"
+                    "Chicken's Egg"
                 ]
             ]
         },
-        "00073f30": {
+        "Paralysis": {
             "id": "00073f30",
             "name": "Paralysis",
             "text": "Target is paralyzed",
@@ -730,19 +730,19 @@
             "ingredients": [
                 [],
                 [
-                    "001016b3"
+                    "Human Flesh"
                 ],
                 [
-                    "0003ad61",
-                    "0004da23",
-                    "0007e8b7"
+                    "Briar Heart",
+                    "Imp Stool",
+                    "Swamp Fungal Pod"
                 ],
                 [
-                    "0006abcb"
+                    "Canis Root"
                 ]
             ]
         },
-        "00073f26": {
+        "Ravage Health": {
             "id": "00073f26",
             "name": "Ravage Health",
             "text": "Causes concentrated poison damage",
@@ -751,20 +751,20 @@
             "ingredients": [
                 [],
                 [
-                    "0006bc07",
-                    "0007e8c1",
-                    "0003ad6f"
+                    "Eye of Sabre Cat",
+                    "Giant Lichen",
+                    "Skeever Tail"
                 ],
                 [
-                    "00106e1c"
+                    "Silverside Perch"
                 ],
                 [
-                    "00106e19",
-                    "0006ac4a"
+                    "Cyrodilic Spadetail",
+                    "Jazbay Grapes"
                 ]
             ]
         },
-        "00073f27": {
+        "Ravage Magicka": {
             "id": "00073f27",
             "name": "Ravage Magicka",
             "text": "Concentrated poison damages Magicka",
@@ -773,20 +773,20 @@
             "ingredients": [
                 [],
                 [
-                    "00083e64",
-                    "000bb956",
-                    "00077e1d"
+                    "Grass Pod",
+                    "Orange Dartwing",
+                    "Red Mountain Flower"
                 ],
                 [
-                    "00034d32",
-                    "00045c28"
+                    "Frost Mirriam",
+                    "Lavender"
                 ],
                 [
-                    "0004da22"
+                    "White Cap"
                 ]
             ]
         },
-        "00073f23": {
+        "Ravage Stamina": {
             "id": "00073f23",
             "name": "Ravage Stamina",
             "text": "Concentrated poison damages Stamina",
@@ -795,18 +795,18 @@
             "ingredients": [
                 [],
                 [
-                    "000a9195",
-                    "000516c8",
-                    "000134aa"
+                    "Bee",
+                    "Deathbell",
+                    "Thistle Branch"
                 ],
                 [],
                 [
-                    "00034cdd",
-                    "000b08c5"
+                    "Bone Meal",
+                    "Honeycomb"
                 ]
             ]
         },
-        "0003eb06": {
+        "Regenerate Health": {
             "id": "0003eb06",
             "name": "Regenerate Health",
             "text": "Health regenerates faster for 300 seconds",
@@ -816,18 +816,18 @@
                 [],
                 [],
                 [
-                    "0005076e",
-                    "000727df",
-                    "0007edf5",
-                    "0003ad76"
+                    "Juniper Berries",
+                    "Luna Moth Wing",
+                    "Nordic Barnacle",
+                    "Vampire Dust"
                 ],
                 [
-                    "00034d22",
-                    "0004da24"
+                    "Garlic",
+                    "Namira's Rot"
                 ]
             ]
         },
-        "0003eb07": {
+        "Regenerate Magicka": {
             "id": "0003eb07",
             "name": "Regenerate Magicka",
             "text": "Magicka regenerates faster for 300 seconds",
@@ -837,19 +837,19 @@
                 [],
                 [],
                 [
-                    "000f11c0",
-                    "00034d22",
-                    "0006ac4a",
-                    "0003ad71"
+                    "Dwarven Oil",
+                    "Garlic",
+                    "Jazbay Grapes",
+                    "Taproot"
                 ],
                 [
-                    "0003ad5e",
-                    "000d8e3f",
-                    "00034cdf"
+                    "Fire Salts",
+                    "Moon Sugar",
+                    "Salt Pile"
                 ]
             ]
         },
-        "0003eb08": {
+        "Regenerate Stamina": {
             "id": "0003eb08",
             "name": "Regenerate Stamina",
             "text": "Stamina regenerates faster for 300 seconds",
@@ -859,16 +859,16 @@
                 [],
                 [],
                 [
-                    "000a9195",
-                    "000ec870",
-                    "0006f950"
+                    "Bee",
+                    "Mora Tapinella",
+                    "Scaly Pholiota"
                 ],
                 [
-                    "0004da00"
+                    "Fly Amanita"
                 ]
             ]
         },
-        "0003eaea": {
+        "Resist Fire": {
             "id": "0003eaea",
             "name": "Resist Fire",
             "text": "Resist fire damage for 60 seconds",
@@ -876,22 +876,22 @@
             "value": 86,
             "ingredients": [
                 [
-                    "000889a2",
-                    "0004da00",
-                    "0001b3bd"
+                    "Dragon's Tongue",
+                    "Fly Amanita",
+                    "Snowberries"
                 ],
                 [
-                    "00034cdd",
-                    "0003ad5e"
+                    "Bone Meal",
+                    "Fire Salts"
                 ],
                 [],
                 [
-                    "00034d31",
-                    "0006bc00"
+                    "Elves Ear",
+                    "Mudcrab Chitin"
                 ]
             ]
         },
-        "0003eaeb": {
+        "Resist Frost": {
             "id": "0003eaeb",
             "name": "Resist Frost",
             "text": "Resist frost damage for 60 seconds",
@@ -899,26 +899,26 @@
             "value": 86,
             "ingredients": [
                 [
-                    "00034d32",
-                    "0003ad70",
-                    "000134aa"
+                    "Frost Mirriam",
+                    "Slaughterfish Scales",
+                    "Thistle Branch"
                 ],
                 [
-                    "0003ad5f",
-                    "000e7ebc",
-                    "000d8e3f"
+                    "Frost Salts",
+                    "Hawk Beak",
+                    "Moon Sugar"
                 ],
                 [
-                    "0001b3bd"
+                    "Snowberries"
                 ],
                 [
-                    "00077e1e",
-                    "00106e1c",
-                    "00085500"
+                    "Purple Mountain Flower",
+                    "Silverside Perch",
+                    "Small Pearl"
                 ]
             ]
         },
-        "00039e51": {
+        "Resist Magic": {
             "id": "00039e51",
             "name": "Resist Magic",
             "text": "Resist magic for 60 seconds",
@@ -926,24 +926,24 @@
             "value": 51,
             "ingredients": [
                 [
-                    "00023d77",
-                    "0006b689",
-                    "00045c28",
-                    "0003f7f8"
+                    "Chicken's Egg",
+                    "Hagraven Claw",
+                    "Lavender",
+                    "Tundra Cotton"
                 ],
                 [
-                    "0003ad60"
+                    "Void Salts"
                 ],
                 [],
                 [
-                    "0004da20",
-                    "000b701a",
-                    "00059b86",
-                    "0006bc0e"
+                    "Bleeding Crown",
+                    "Crimson Nirnroot",
+                    "Nirnroot",
+                    "Wisp Wrappings"
                 ]
             ]
         },
-        "00090041": {
+        "Resist Poison": {
             "id": "00090041",
             "name": "Resist Poison",
             "text": "Resist poison for 60 seconds",
@@ -951,23 +951,23 @@
             "value": 118,
             "ingredients": [
                 [
-                    "000a9191",
-                    "00034d22",
-                    "00083e64",
-                    "0007e8c5",
-                    "0003ad72"
+                    "Beehive Husk",
+                    "Garlic",
+                    "Grass Pod",
+                    "Slaughterfish Egg",
+                    "Troll Fat"
                 ],
                 [],
                 [
-                    "00052695",
-                    "0003ad5d",
-                    "0006bc00",
-                    "000134aa"
+                    "Charred Skeever Hide",
+                    "Falmer Ear",
+                    "Mudcrab Chitin",
+                    "Thistle Branch"
                 ],
                 []
             ]
         },
-        "0003eaec": {
+        "Resist Shock": {
             "id": "0003eaec",
             "name": "Resist Shock",
             "text": "Resist shock damage for 60 seconds",
@@ -975,22 +975,22 @@
             "value": 86,
             "ingredients": [
                 [
-                    "000e4f0c",
-                    "0007ee01",
-                    "0007e8b7"
+                    "Blue Dartwing",
+                    "Glowing Mushroom",
+                    "Swamp Fungal Pod"
                 ],
                 [],
                 [],
                 [
-                    "0003ad73",
-                    "000e7ebc",
-                    "000854fe",
-                    "00023d6f",
-                    "0001b3bd"
+                    "Glow Dust",
+                    "Hawk Beak",
+                    "Pearl",
+                    "Pine Thrush Egg",
+                    "Snowberries"
                 ]
             ]
         },
-        "0003eb15": {
+        "Restore Health": {
             "id": "0003eb15",
             "name": "Restore Health",
             "text": "Restore Health",
@@ -998,26 +998,26 @@
             "value": 21,
             "ingredients": [
                 [
-                    "00077e1c",
-                    "000727e0",
-                    "0003ad5b",
-                    "0007e8c8",
-                    "0004b0ba"
+                    "Blue Mountain Flower",
+                    "Butterfly Wing",
+                    "Daedra Heart",
+                    "Rock Warbler Egg",
+                    "Wheat"
                 ],
                 [],
                 [
-                    "0004da25",
-                    "000e4f0c"
+                    "Blisterwort",
+                    "Blue Dartwing"
                 ],
                 [
-                    "00052695",
-                    "0006bc07",
-                    "0004da23",
-                    "0007e8b7"
+                    "Charred Skeever Hide",
+                    "Eye of Sabre Cat",
+                    "Imp Stool",
+                    "Swamp Fungal Pod"
                 ]
             ]
         },
-        "0003eb17": {
+        "Restore Magicka": {
             "id": "0003eb17",
             "name": "Restore Magicka",
             "text": "Restore Magicka",
@@ -1025,33 +1025,33 @@
             "value": 25,
             "ingredients": [
                 [
-                    "0003ad61",
-                    "000b2183",
-                    "0003ad63",
-                    "00034d31",
-                    "000ec870",
-                    "00077e1d"
+                    "Briar Heart",
+                    "Creep Cluster",
+                    "Ectoplasm",
+                    "Elves Ear",
+                    "Mora Tapinella",
+                    "Red Mountain Flower"
                 ],
                 [
-                    "0003ad76"
+                    "Vampire Dust"
                 ],
                 [
-                    "0003ad5e",
-                    "0003ad5f",
-                    "001016b3",
-                    "000d8e3f",
-                    "000854fe",
-                    "0004da22"
+                    "Fire Salts",
+                    "Frost Salts",
+                    "Human Flesh",
+                    "Moon Sugar",
+                    "Pearl",
+                    "White Cap"
                 ],
                 [
-                    "000f11c0",
-                    "0007e8c1",
-                    "00083e64",
-                    "0003ad71"
+                    "Dwarven Oil",
+                    "Giant Lichen",
+                    "Grass Pod",
+                    "Taproot"
                 ]
             ]
         },
-        "0003eb16": {
+        "Restore Stamina": {
             "id": "0003eb16",
             "name": "Restore Stamina",
             "text": "Restore Stamina",
@@ -1059,32 +1059,32 @@
             "value": 25,
             "ingredients": [
                 [
-                    "0006bc02",
-                    "000a9195",
-                    "00052695",
-                    "0006bc07",
-                    "000e7ebc",
-                    "00106e18",
-                    "000b08c5",
-                    "0006bc0a",
-                    "0006bc00",
-                    "000bb956",
-                    "000854fe",
-                    "00023d6f",
-                    "0006bc10",
-                    "00077e1e",
-                    "0006bc04",
-                    "00106e1c",
-                    "00085500",
-                    "0004da73",
-                    "0006bc0e"
+                    "Bear Claws",
+                    "Bee",
+                    "Charred Skeever Hide",
+                    "Eye of Sabre Cat",
+                    "Hawk Beak",
+                    "Histcarp",
+                    "Honeycomb",
+                    "Large Antlers",
+                    "Mudcrab Chitin",
+                    "Orange Dartwing",
+                    "Pearl",
+                    "Pine Thrush Egg",
+                    "Powdered Mammoth Tusk",
+                    "Purple Mountain Flower",
+                    "Sabre Cat Tooth",
+                    "Silverside Perch",
+                    "Small Pearl",
+                    "Torchbug Thorax",
+                    "Wisp Wrappings"
                 ],
                 [],
                 [],
                 []
             ]
         },
-        "00073f25": {
+        "Slow": {
             "id": "00073f25",
             "name": "Slow",
             "text": "Target moves at 50% speed",
@@ -1094,15 +1094,15 @@
                 [],
                 [],
                 [
-                    "000516c8",
-                    "0006bc0a",
-                    "00106e1a",
-                    "00034cdf"
+                    "Deathbell",
+                    "Large Antlers",
+                    "River Betty",
+                    "Salt Pile"
                 ],
                 []
             ]
         },
-        "0003ac2d": {
+        "Waterbreathing": {
             "id": "0003ac2d",
             "name": "Waterbreathing",
             "text": "Can breath underwater",
@@ -1111,17 +1111,17 @@
             "ingredients": [
                 [],
                 [
-                    "0007edf5"
+                    "Nordic Barnacle"
                 ],
                 [
-                    "00023d77"
+                    "Chicken's Egg"
                 ],
                 [
-                    "00106e18"
+                    "Histcarp"
                 ]
             ]
         },
-        "00073f2d": {
+        "Weakness to Fire": {
             "id": "00073f2d",
             "name": "Weakness to Fire",
             "text": "Target is weaker to fire damage for 30 seconds",
@@ -1129,21 +1129,21 @@
             "value": 48,
             "ingredients": [
                 [
-                    "0004da20",
-                    "0003ad5f",
-                    "0005076e",
-                    "000d8e3f"
+                    "Bleeding Crown",
+                    "Frost Salts",
+                    "Juniper Berries",
+                    "Moon Sugar"
                 ],
                 [],
                 [
-                    "0006bc10"
+                    "Powdered Mammoth Tusk"
                 ],
                 [
-                    "0003ad6a"
+                    "Ice Wraith Teeth"
                 ]
             ]
         },
-        "00073f2e": {
+        "Weakness to Frost": {
             "id": "00073f2e",
             "name": "Weakness to Frost",
             "text": "Target is weaker to frost damage for 30 seconds",
@@ -1151,19 +1151,19 @@
             "value": 40,
             "ingredients": [
                 [
-                    "00106e1b",
-                    "0003ad5e",
-                    "0003ad6a",
-                    "0004da22"
+                    "Abecean Longfin",
+                    "Fire Salts",
+                    "Ice Wraith Teeth",
+                    "White Cap"
                 ],
                 [],
                 [
-                    "00034d31"
+                    "Elves Ear"
                 ],
                 []
             ]
         },
-        "00073f51": {
+        "Weakness to Magic": {
             "id": "00073f51",
             "name": "Weakness to Magic",
             "text": "Target is weaker to magic for 30 seconds",
@@ -1171,23 +1171,23 @@
             "value": 51,
             "ingredients": [
                 [
-                    "000f11c0",
-                    "0006ac4a",
-                    "00034cdf",
-                    "0006f950",
-                    "0003ad71"
+                    "Dwarven Oil",
+                    "Jazbay Grapes",
+                    "Salt Pile",
+                    "Scaly Pholiota",
+                    "Taproot"
                 ],
                 [],
                 [
-                    "0004da73"
+                    "Torchbug Thorax"
                 ],
                 [
-                    "000b2183",
-                    "0007e8c8"
+                    "Creep Cluster",
+                    "Rock Warbler Egg"
                 ]
             ]
         },
-        "00090042": {
+        "Weakness to Poison": {
             "id": "00090042",
             "name": "Weakness to Poison",
             "text": "Target is weaker to poison damage for 30 seconds",
@@ -1195,23 +1195,23 @@
             "value": 51,
             "ingredients": [
                 [
-                    "0003ad56",
-                    "0006bc0b"
+                    "Chaurus Eggs",
+                    "Small Antlers"
                 ],
                 [],
                 [
-                    "00106e1b",
-                    "0004da20",
-                    "0007e8c1",
-                    "00023d6f"
+                    "Abecean Longfin",
+                    "Bleeding Crown",
+                    "Giant Lichen",
+                    "Pine Thrush Egg"
                 ],
                 [
-                    "000516c8",
-                    "0006bc04"
+                    "Deathbell",
+                    "Sabre Cat Tooth"
                 ]
             ]
         },
-        "00073f2f": {
+        "Weakness to Shock": {
             "id": "00073f2f",
             "name": "Weakness to Shock",
             "text": "Target is weaker to shock damage for 30 seconds",
@@ -1219,928 +1219,1110 @@
             "value": 56,
             "ingredients": [
                 [
-                    "0007e8c1",
-                    "0003ad60"
+                    "Giant Lichen",
+                    "Void Salts"
                 ],
                 [],
                 [],
                 [
-                    "000a9195",
-                    "0003ad66"
+                    "Bee",
+                    "Hagraven Feathers"
                 ]
             ]
         }
     },
     "ingredients": {
-        "00106e1b": {
+        "Abecean Longfin": {
             "id": "00106e1b",
             "name": "Abecean Longfin",
-            "effect_1_id": "00073f2e",
-            "effect_2_id": "0003eb22",
-            "effect_3_id": "00090042",
-            "effect_4_id": "0003eb28",
             "weight": 0.5,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Weakness to Frost",
+                "Fortify Sneak",
+                "Weakness to Poison",
+                "Fortify Restoration"
+            ]
         },
-        "0006bc02": {
+        "Bear Claws": {
             "id": "0006bc02",
             "name": "Bear Claws",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eaf3",
-            "effect_3_id": "0003eb19",
-            "effect_4_id": "00073f2b",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Health",
+                "Fortify One Handed",
+                "Damage Magicka Regen"
+            ]
         },
-        "000a9195": {
+        "Bee": {
             "id": "000a9195",
             "name": "Bee",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "00073f23",
-            "effect_3_id": "0003eb08",
-            "effect_4_id": "00073f2f",
             "weight": 0.1,
-            "value": 3
+            "value": 3,
+            "effects": [
+                "Restore Stamina",
+                "Ravage Stamina",
+                "Regenerate Stamina",
+                "Weakness to Shock"
+            ]
         },
-        "000a9191": {
+        "Beehive Husk": {
             "id": "000a9191",
             "name": "Beehive Husk",
-            "effect_1_id": "00090041",
-            "effect_2_id": "0003eb1f",
-            "effect_3_id": "0003eb22",
-            "effect_4_id": "0003eb26",
             "weight": 1,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Resist Poison",
+                "Fortify Light Armor",
+                "Fortify Sneak",
+                "Fortify Destruction"
+            ]
         },
-        "0004da20": {
+        "Bleeding Crown": {
             "id": "0004da20",
             "name": "Bleeding Crown",
-            "effect_1_id": "00073f2d",
-            "effect_2_id": "0003eb1c",
-            "effect_3_id": "00090042",
-            "effect_4_id": "00039e51",
             "weight": 0.3,
-            "value": 10
+            "value": 10,
+            "effects": [
+                "Weakness to Fire",
+                "Fortify Block",
+                "Weakness to Poison",
+                "Resist Magic"
+            ]
         },
-        "0004da25": {
+        "Blisterwort": {
             "id": "0004da25",
             "name": "Blisterwort",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "00073f29",
-            "effect_3_id": "0003eb15",
-            "effect_4_id": "0003eb1d",
             "weight": 0.2,
-            "value": 12
+            "value": 12,
+            "effects": [
+                "Damage Stamina",
+                "Frenzy",
+                "Restore Health",
+                "Fortify Smithing"
+            ]
         },
-        "000727de": {
+        "Blue Butterfly Wing": {
             "id": "000727de",
             "name": "Blue Butterfly Wing",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "0003eb25",
-            "effect_3_id": "00073f2b",
-            "effect_4_id": "0003eb29",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Damage Stamina",
+                "Fortify Conjuration",
+                "Damage Magicka Regen",
+                "Fortify Enchanting"
+            ]
         },
-        "000e4f0c": {
+        "Blue Dartwing": {
             "id": "000e4f0c",
             "name": "Blue Dartwing",
-            "effect_1_id": "0003eaec",
-            "effect_2_id": "0003eb20",
-            "effect_3_id": "0003eb15",
-            "effect_4_id": "00073f20",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Shock",
+                "Fortify Pickpocket",
+                "Restore Health",
+                "Fear"
+            ]
         },
-        "00077e1c": {
+        "Blue Mountain Flower": {
             "id": "00077e1c",
             "name": "Blue Mountain Flower",
-            "effect_1_id": "0003eb15",
-            "effect_2_id": "0003eb25",
-            "effect_3_id": "0003eaf3",
-            "effect_4_id": "00073f2b",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Health",
+                "Fortify Conjuration",
+                "Fortify Health",
+                "Damage Magicka Regen"
+            ]
         },
-        "00034cdd": {
+        "Bone Meal": {
             "id": "00034cdd",
             "name": "Bone Meal",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "0003eaea",
-            "effect_3_id": "0003eb25",
-            "effect_4_id": "00073f23",
             "weight": 0.5,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Damage Stamina",
+                "Resist Fire",
+                "Fortify Conjuration",
+                "Ravage Stamina"
+            ]
         },
-        "0003ad61": {
+        "Briar Heart": {
             "id": "0003ad61",
             "name": "Briar Heart",
-            "effect_1_id": "0003eb17",
-            "effect_2_id": "0003eb1c",
-            "effect_3_id": "00073f30",
-            "effect_4_id": "0003eaf8",
             "weight": 0.5,
-            "value": 20
+            "value": 20,
+            "effects": [
+                "Restore Magicka",
+                "Fortify Block",
+                "Paralysis",
+                "Fortify Magicka"
+            ]
         },
-        "000727e0": {
+        "Butterfly Wing": {
             "id": "000727e0",
             "name": "Butterfly Wing",
-            "effect_1_id": "0003eb15",
-            "effect_2_id": "0003eb23",
-            "effect_3_id": "0010de5e",
-            "effect_4_id": "0003a2b6",
             "weight": 0.1,
-            "value": 3
+            "value": 3,
+            "effects": [
+                "Restore Health",
+                "Fortify Barter",
+                "Lingering Damage Stamina",
+                "Damage Magicka"
+            ]
         },
-        "0006abcb": {
+        "Canis Root": {
             "id": "0006abcb",
             "name": "Canis Root",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "0003eb19",
-            "effect_3_id": "0003eb1b",
-            "effect_4_id": "00073f30",
             "weight": 0.1,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Damage Stamina",
+                "Fortify One Handed",
+                "Fortify Marksman",
+                "Paralysis"
+            ]
         },
-        "00052695": {
+        "Charred Skeever Hide": {
             "id": "00052695",
             "name": "Charred Skeever Hide",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "000ae723",
-            "effect_3_id": "00090041",
-            "effect_4_id": "0003eb15",
             "weight": 0.5,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Restore Stamina",
+                "Cure Disease",
+                "Resist Poison",
+                "Restore Health"
+            ]
         },
-        "0003ad56": {
+        "Chaurus Eggs": {
             "id": "0003ad56",
             "name": "Chaurus Eggs",
-            "effect_1_id": "00090042",
-            "effect_2_id": "0003eaf9",
-            "effect_3_id": "0003a2b6",
-            "effect_4_id": "0003eb3d",
             "weight": 0.2,
-            "value": 10
+            "value": 10,
+            "effects": [
+                "Weakness to Poison",
+                "Fortify Stamina",
+                "Damage Magicka",
+                "Invisibility"
+            ]
         },
-        "00023d77": {
+        "Chicken's Egg": {
             "id": "00023d77",
             "name": "Chicken's Egg",
-            "effect_1_id": "00039e51",
-            "effect_2_id": "00073f2b",
-            "effect_3_id": "0003ac2d",
-            "effect_4_id": "0010de5e",
             "weight": 0.5,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Resist Magic",
+                "Damage Magicka Regen",
+                "Waterbreathing",
+                "Lingering Damage Stamina"
+            ]
         },
-        "000b2183": {
+        "Creep Cluster": {
             "id": "000b2183",
             "name": "Creep Cluster",
-            "effect_1_id": "0003eb17",
-            "effect_2_id": "00073f2c",
-            "effect_3_id": "0003eb01",
-            "effect_4_id": "00073f51",
             "weight": 0.2,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Restore Magicka",
+                "Damage Stamina Regen",
+                "Fortify Carry Weight",
+                "Weakness to Magic"
+            ]
         },
-        "000b701a": {
+        "Crimson Nirnroot": {
             "id": "000b701a",
             "name": "Crimson Nirnroot",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "0003a2c6",
-            "effect_3_id": "0003eb3d",
-            "effect_4_id": "00039e51",
             "weight": 0.2,
-            "value": 10
+            "value": 10,
+            "effects": [
+                "Damage Health",
+                "Damage Stamina",
+                "Invisibility",
+                "Resist Magic"
+            ]
         },
-        "00106e19": {
+        "Cyrodilic Spadetail": {
             "id": "00106e19",
             "name": "Cyrodilic Spadetail",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "0003eb28",
-            "effect_3_id": "00073f20",
-            "effect_4_id": "00073f26",
             "weight": 0.25,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Damage Stamina",
+                "Fortify Restoration",
+                "Fear",
+                "Ravage Health"
+            ]
         },
-        "0003ad5b": {
+        "Daedra Heart": {
             "id": "0003ad5b",
             "name": "Daedra Heart",
-            "effect_1_id": "0003eb15",
-            "effect_2_id": "00073f2c",
-            "effect_3_id": "0003a2b6",
-            "effect_4_id": "00073f20",
             "weight": 0.5,
-            "value": 250
+            "value": 250,
+            "effects": [
+                "Restore Health",
+                "Damage Stamina Regen",
+                "Damage Magicka",
+                "Fear"
+            ]
         },
-        "000516c8": {
+        "Deathbell": {
             "id": "000516c8",
             "name": "Deathbell",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "00073f23",
-            "effect_3_id": "00073f25",
-            "effect_4_id": "00090042",
             "weight": 0.1,
-            "value": 4
+            "value": 4,
+            "effects": [
+                "Damage Health",
+                "Ravage Stamina",
+                "Slow",
+                "Weakness to Poison"
+            ]
         },
-        "000889a2": {
+        "Dragon's Tongue": {
             "id": "000889a2",
             "name": "Dragon's Tongue",
-            "effect_1_id": "0003eaea",
-            "effect_2_id": "0003eb23",
-            "effect_3_id": "0003eb27",
-            "effect_4_id": "0003eb1a",
             "weight": 0.1,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Resist Fire",
+                "Fortify Barter",
+                "Fortify Illusion",
+                "Fortify Two Handed"
+            ]
         },
-        "000f11c0": {
+        "Dwarven Oil": {
             "id": "000f11c0",
             "name": "Dwarven Oil",
-            "effect_1_id": "00073f51",
-            "effect_2_id": "0003eb27",
-            "effect_3_id": "0003eb07",
-            "effect_4_id": "0003eb17",
             "weight": 0.25,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Weakness to Magic",
+                "Fortify Illusion",
+                "Regenerate Magicka",
+                "Restore Magicka"
+            ]
         },
-        "0003ad63": {
+        "Ectoplasm": {
             "id": "0003ad63",
             "name": "Ectoplasm",
-            "effect_1_id": "0003eb17",
-            "effect_2_id": "0003eb26",
-            "effect_3_id": "0003eaf8",
-            "effect_4_id": "0003eb42",
             "weight": 0.1,
-            "value": 25
+            "value": 25,
+            "effects": [
+                "Restore Magicka",
+                "Fortify Destruction",
+                "Fortify Magicka",
+                "Damage Health"
+            ]
         },
-        "00034d31": {
+        "Elves Ear": {
             "id": "00034d31",
             "name": "Elves Ear",
-            "effect_1_id": "0003eb17",
-            "effect_2_id": "0003eb1b",
-            "effect_3_id": "00073f2e",
-            "effect_4_id": "0003eaea",
             "weight": 0.1,
-            "value": 10
+            "value": 10,
+            "effects": [
+                "Restore Magicka",
+                "Fortify Marksman",
+                "Weakness to Frost",
+                "Resist Fire"
+            ]
         },
-        "0006bc07": {
+        "Eye of Sabre Cat": {
             "id": "0006bc07",
             "name": "Eye of Sabre Cat",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "00073f26",
-            "effect_3_id": "0003a2b6",
-            "effect_4_id": "0003eb15",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Ravage Health",
+                "Damage Magicka",
+                "Restore Health"
+            ]
         },
-        "0003ad5d": {
+        "Falmer Ear": {
             "id": "0003ad5d",
             "name": "Falmer Ear",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "00073f29",
-            "effect_3_id": "00090041",
-            "effect_4_id": "0003eb21",
             "weight": 0.2,
-            "value": 10
+            "value": 10,
+            "effects": [
+                "Damage Health",
+                "Frenzy",
+                "Resist Poison",
+                "Fortify Lockpicking"
+            ]
         },
-        "0003ad5e": {
+        "Fire Salts": {
             "id": "0003ad5e",
             "name": "Fire Salts",
-            "effect_1_id": "00073f2e",
-            "effect_2_id": "0003eaea",
-            "effect_3_id": "0003eb17",
-            "effect_4_id": "0003eb07",
             "weight": 0.25,
-            "value": 50
+            "value": 50,
+            "effects": [
+                "Weakness to Frost",
+                "Resist Fire",
+                "Restore Magicka",
+                "Regenerate Magicka"
+            ]
         },
-        "0004da00": {
+        "Fly Amanita": {
             "id": "0004da00",
             "name": "Fly Amanita",
-            "effect_1_id": "0003eaea",
-            "effect_2_id": "0003eb1a",
-            "effect_3_id": "00073f29",
-            "effect_4_id": "0003eb08",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Resist Fire",
+                "Fortify Two Handed",
+                "Frenzy",
+                "Regenerate Stamina"
+            ]
         },
-        "00034d32": {
+        "Frost Mirriam": {
             "id": "00034d32",
             "name": "Frost Mirriam",
-            "effect_1_id": "0003eaeb",
-            "effect_2_id": "0003eb22",
-            "effect_3_id": "00073f27",
-            "effect_4_id": "00073f2c",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Frost",
+                "Fortify Sneak",
+                "Ravage Magicka",
+                "Damage Stamina Regen"
+            ]
         },
-        "0003ad5f": {
+        "Frost Salts": {
             "id": "0003ad5f",
             "name": "Frost Salts",
-            "effect_1_id": "00073f2d",
-            "effect_2_id": "0003eaeb",
-            "effect_3_id": "0003eb17",
-            "effect_4_id": "0003eb25",
             "weight": 0.25,
-            "value": 100
+            "value": 100,
+            "effects": [
+                "Weakness to Fire",
+                "Resist Frost",
+                "Restore Magicka",
+                "Fortify Conjuration"
+            ]
         },
-        "00034d22": {
+        "Garlic": {
             "id": "00034d22",
             "name": "Garlic",
-            "effect_1_id": "00090041",
-            "effect_2_id": "0003eaf9",
-            "effect_3_id": "0003eb07",
-            "effect_4_id": "0003eb06",
             "weight": 0.25,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Poison",
+                "Fortify Stamina",
+                "Regenerate Magicka",
+                "Regenerate Health"
+            ]
         },
-        "0007e8c1": {
+        "Giant Lichen": {
             "id": "0007e8c1",
             "name": "Giant Lichen",
-            "effect_1_id": "00073f2f",
-            "effect_2_id": "00073f26",
-            "effect_3_id": "00090042",
-            "effect_4_id": "0003eb17",
             "weight": 0.25,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Weakness to Shock",
+                "Ravage Health",
+                "Weakness to Poison",
+                "Restore Magicka"
+            ]
         },
-        "0003ad64": {
+        "Giant's Toe": {
             "id": "0003ad64",
             "name": "Giant's Toe",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "0003eaf3",
-            "effect_3_id": "0003eb01",
-            "effect_4_id": "00073f2c",
             "weight": 1,
-            "value": 20
+            "value": 20,
+            "effects": [
+                "Damage Stamina",
+                "Fortify Health",
+                "Fortify Carry Weight",
+                "Damage Stamina Regen"
+            ]
         },
-        "0003ad73": {
+        "Glow Dust": {
             "id": "0003ad73",
             "name": "Glow Dust",
-            "effect_1_id": "0003a2b6",
-            "effect_2_id": "00073f2b",
-            "effect_3_id": "0003eb26",
-            "effect_4_id": "0003eaec",
             "weight": 0.5,
-            "value": 20
+            "value": 20,
+            "effects": [
+                "Damage Magicka",
+                "Damage Magicka Regen",
+                "Fortify Destruction",
+                "Resist Shock"
+            ]
         },
-        "0007ee01": {
+        "Glowing Mushroom": {
             "id": "0007ee01",
             "name": "Glowing Mushroom",
-            "effect_1_id": "0003eaec",
-            "effect_2_id": "0003eb26",
-            "effect_3_id": "0003eb1d",
-            "effect_4_id": "0003eaf3",
             "weight": 0.2,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Resist Shock",
+                "Fortify Destruction",
+                "Fortify Smithing",
+                "Fortify Health"
+            ]
         },
-        "00083e64": {
+        "Grass Pod": {
             "id": "00083e64",
             "name": "Grass Pod",
-            "effect_1_id": "00090041",
-            "effect_2_id": "00073f27",
-            "effect_3_id": "0003eb24",
-            "effect_4_id": "0003eb17",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Poison",
+                "Ravage Magicka",
+                "Fortify Alteration",
+                "Restore Magicka"
+            ]
         },
-        "0006b689": {
+        "Hagraven Claw": {
             "id": "0006b689",
             "name": "Hagraven Claw",
-            "effect_1_id": "00039e51",
-            "effect_2_id": "0010de5f",
-            "effect_3_id": "0003eb29",
-            "effect_4_id": "0003eb23",
             "weight": 0.25,
-            "value": 20
+            "value": 20,
+            "effects": [
+                "Resist Magic",
+                "Lingering Damage Magicka",
+                "Fortify Enchanting",
+                "Fortify Barter"
+            ]
         },
-        "0003ad66": {
+        "Hagraven Feathers": {
             "id": "0003ad66",
             "name": "Hagraven Feathers",
-            "effect_1_id": "0003a2b6",
-            "effect_2_id": "0003eb25",
-            "effect_3_id": "00073f29",
-            "effect_4_id": "00073f2f",
             "weight": 0.1,
-            "value": 20
+            "value": 20,
+            "effects": [
+                "Damage Magicka",
+                "Fortify Conjuration",
+                "Frenzy",
+                "Weakness to Shock"
+            ]
         },
-        "00057f91": {
+        "Hanging Moss": {
             "id": "00057f91",
             "name": "Hanging Moss",
-            "effect_1_id": "0003a2b6",
-            "effect_2_id": "0003eaf3",
-            "effect_3_id": "00073f2b",
-            "effect_4_id": "0003eb19",
             "weight": 0.25,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Damage Magicka",
+                "Fortify Health",
+                "Damage Magicka Regen",
+                "Fortify One Handed"
+            ]
         },
-        "000e7ebc": {
+        "Hawk Beak": {
             "id": "000e7ebc",
             "name": "Hawk Beak",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eaeb",
-            "effect_3_id": "0003eb01",
-            "effect_4_id": "0003eaec",
             "weight": 0.25,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Restore Stamina",
+                "Resist Frost",
+                "Fortify Carry Weight",
+                "Resist Shock"
+            ]
         },
-        "000e7ed0": {
+        "Hawk Feathers": {
             "id": "000e7ed0",
             "name": "Hawk Feathers",
-            "effect_1_id": "000ae723",
-            "effect_2_id": "0003eb1f",
-            "effect_3_id": "0003eb19",
-            "effect_4_id": "0003eb22",
             "weight": 0.1,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Cure Disease",
+                "Fortify Light Armor",
+                "Fortify One Handed",
+                "Fortify Sneak"
+            ]
         },
-        "00106e18": {
+        "Histcarp": {
             "id": "00106e18",
             "name": "Histcarp",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eaf8",
-            "effect_3_id": "00073f2c",
-            "effect_4_id": "0003ac2d",
             "weight": 0.25,
-            "value": 6
+            "value": 6,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Magicka",
+                "Damage Stamina Regen",
+                "Waterbreathing"
+            ]
         },
-        "000b08c5": {
+        "Honeycomb": {
             "id": "000b08c5",
             "name": "Honeycomb",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb1c",
-            "effect_3_id": "0003eb1f",
-            "effect_4_id": "00073f23",
             "weight": 1,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Block",
+                "Fortify Light Armor",
+                "Ravage Stamina"
+            ]
         },
-        "001016b3": {
+        "Human Flesh": {
             "id": "001016b3",
             "name": "Human Flesh",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "00073f30",
-            "effect_3_id": "0003eb17",
-            "effect_4_id": "0003eb22",
             "weight": 0.25,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Damage Health",
+                "Paralysis",
+                "Restore Magicka",
+                "Fortify Sneak"
+            ]
         },
-        "000b18cd": {
+        "Human Heart": {
             "id": "000b18cd",
             "name": "Human Heart",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "0003a2b6",
-            "effect_3_id": "00073f2b",
-            "effect_4_id": "00073f29",
             "weight": 1,
-            "value": 0
+            "value": 0,
+            "effects": [
+                "Damage Health",
+                "Damage Magicka",
+                "Damage Magicka Regen",
+                "Frenzy"
+            ]
         },
-        "0003ad6a": {
+        "Ice Wraith Teeth": {
             "id": "0003ad6a",
             "name": "Ice Wraith Teeth",
-            "effect_1_id": "00073f2e",
-            "effect_2_id": "0003eb1e",
-            "effect_3_id": "0003eb3d",
-            "effect_4_id": "00073f2d",
             "weight": 0.25,
-            "value": 30
+            "value": 30,
+            "effects": [
+                "Weakness to Frost",
+                "Fortify Heavy Armor",
+                "Invisibility",
+                "Weakness to Fire"
+            ]
         },
-        "0004da23": {
+        "Imp Stool": {
             "id": "0004da23",
             "name": "Imp Stool",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "0010aa4a",
-            "effect_3_id": "00073f30",
-            "effect_4_id": "0003eb15",
             "weight": 0.3,
-            "value": 0
+            "value": 0,
+            "effects": [
+                "Damage Health",
+                "Lingering Damage Health",
+                "Paralysis",
+                "Restore Health"
+            ]
         },
-        "0006ac4a": {
+        "Jazbay Grapes": {
             "id": "0006ac4a",
             "name": "Jazbay Grapes",
-            "effect_1_id": "00073f51",
-            "effect_2_id": "0003eaf8",
-            "effect_3_id": "0003eb07",
-            "effect_4_id": "00073f26",
             "weight": 0.2,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Weakness to Magic",
+                "Fortify Magicka",
+                "Regenerate Magicka",
+                "Ravage Health"
+            ]
         },
-        "0005076e": {
+        "Juniper Berries": {
             "id": "0005076e",
             "name": "Juniper Berries",
-            "effect_1_id": "00073f2d",
-            "effect_2_id": "0003eb1b",
-            "effect_3_id": "0003eb06",
-            "effect_4_id": "00073f2c",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Weakness to Fire",
+                "Fortify Marksman",
+                "Regenerate Health",
+                "Damage Stamina Regen"
+            ]
         },
-        "0006bc0a": {
+        "Large Antlers": {
             "id": "0006bc0a",
             "name": "Large Antlers",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eaf9",
-            "effect_3_id": "00073f25",
-            "effect_4_id": "00073f2c",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Stamina",
+                "Slow",
+                "Damage Stamina Regen"
+            ]
         },
-        "00045c28": {
+        "Lavender": {
             "id": "00045c28",
             "name": "Lavender",
-            "effect_1_id": "00039e51",
-            "effect_2_id": "0003eaf9",
-            "effect_3_id": "00073f27",
-            "effect_4_id": "0003eb25",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Magic",
+                "Fortify Stamina",
+                "Ravage Magicka",
+                "Fortify Conjuration"
+            ]
         },
-        "000727df": {
+        "Luna Moth Wing": {
             "id": "000727df",
             "name": "Luna Moth Wing",
-            "effect_1_id": "0003a2b6",
-            "effect_2_id": "0003eb1f",
-            "effect_3_id": "0003eb06",
-            "effect_4_id": "0003eb3d",
             "weight": 0.1,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Damage Magicka",
+                "Fortify Light Armor",
+                "Regenerate Health",
+                "Invisibility"
+            ]
         },
-        "000d8e3f": {
+        "Moon Sugar": {
             "id": "000d8e3f",
             "name": "Moon Sugar",
-            "effect_1_id": "00073f2d",
-            "effect_2_id": "0003eaeb",
-            "effect_3_id": "0003eb17",
-            "effect_4_id": "0003eb07",
             "weight": 0.25,
-            "value": 50
+            "value": 50,
+            "effects": [
+                "Weakness to Fire",
+                "Resist Frost",
+                "Restore Magicka",
+                "Regenerate Magicka"
+            ]
         },
-        "000ec870": {
+        "Mora Tapinella": {
             "id": "000ec870",
             "name": "Mora Tapinella",
-            "effect_1_id": "0003eb17",
-            "effect_2_id": "0010aa4a",
-            "effect_3_id": "0003eb08",
-            "effect_4_id": "0003eb27",
             "weight": 0.25,
-            "value": 4
+            "value": 4,
+            "effects": [
+                "Restore Magicka",
+                "Lingering Damage Health",
+                "Regenerate Stamina",
+                "Fortify Illusion"
+            ]
         },
-        "0006bc00": {
+        "Mudcrab Chitin": {
             "id": "0006bc00",
             "name": "Mudcrab Chitin",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "000ae723",
-            "effect_3_id": "00090041",
-            "effect_4_id": "0003eaea",
             "weight": 0.25,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Cure Disease",
+                "Resist Poison",
+                "Resist Fire"
+            ]
         },
-        "0004da24": {
+        "Namira's Rot": {
             "id": "0004da24",
             "name": "Namira's Rot",
-            "effect_1_id": "0003a2b6",
-            "effect_2_id": "0003eb21",
-            "effect_3_id": "00073f20",
-            "effect_4_id": "0003eb06",
             "weight": 0.25,
-            "value": 0
+            "value": 0,
+            "effects": [
+                "Damage Magicka",
+                "Fortify Lockpicking",
+                "Fear",
+                "Regenerate Health"
+            ]
         },
-        "0002f44c": {
+        "Nightshade": {
             "id": "0002f44c",
             "name": "Nightshade",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "00073f2b",
-            "effect_3_id": "0010de5e",
-            "effect_4_id": "0003eb26",
             "weight": 0.1,
-            "value": 8
+            "value": 8,
+            "effects": [
+                "Damage Health",
+                "Damage Magicka Regen",
+                "Lingering Damage Stamina",
+                "Fortify Destruction"
+            ]
         },
-        "00059b86": {
+        "Nirnroot": {
             "id": "00059b86",
             "name": "Nirnroot",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "0003a2c6",
-            "effect_3_id": "0003eb3d",
-            "effect_4_id": "00039e51",
             "weight": 0.2,
-            "value": 10
+            "value": 10,
+            "effects": [
+                "Damage Health",
+                "Damage Stamina",
+                "Invisibility",
+                "Resist Magic"
+            ]
         },
-        "0007edf5": {
+        "Nordic Barnacle": {
             "id": "0007edf5",
             "name": "Nordic Barnacle",
-            "effect_1_id": "0003a2b6",
-            "effect_2_id": "0003ac2d",
-            "effect_3_id": "0003eb06",
-            "effect_4_id": "0003eb20",
             "weight": 0.2,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Damage Magicka",
+                "Waterbreathing",
+                "Regenerate Health",
+                "Fortify Pickpocket"
+            ]
         },
-        "000bb956": {
+        "Orange Dartwing": {
             "id": "000bb956",
             "name": "Orange Dartwing",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "00073f27",
-            "effect_3_id": "0003eb20",
-            "effect_4_id": "0010aa4a",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Restore Stamina",
+                "Ravage Magicka",
+                "Fortify Pickpocket",
+                "Lingering Damage Health"
+            ]
         },
-        "000854fe": {
+        "Pearl": {
             "id": "000854fe",
             "name": "Pearl",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb1c",
-            "effect_3_id": "0003eb17",
-            "effect_4_id": "0003eaec",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Block",
+                "Restore Magicka",
+                "Resist Shock"
+            ]
         },
-        "00023d6f": {
+        "Pine Thrush Egg": {
             "id": "00023d6f",
             "name": "Pine Thrush Egg",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb21",
-            "effect_3_id": "00090042",
-            "effect_4_id": "0003eaec",
             "weight": 0.5,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Lockpicking",
+                "Weakness to Poison",
+                "Resist Shock"
+            ]
         },
-        "0006bc10": {
+        "Powdered Mammoth Tusk": {
             "id": "0006bc10",
             "name": "Powdered Mammoth Tusk",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb22",
-            "effect_3_id": "00073f2d",
-            "effect_4_id": "00073f20",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Sneak",
+                "Weakness to Fire",
+                "Fear"
+            ]
         },
-        "00077e1e": {
+        "Purple Mountain Flower": {
             "id": "00077e1e",
             "name": "Purple Mountain Flower",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb22",
-            "effect_3_id": "0010de5f",
-            "effect_4_id": "0003eaeb",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Sneak",
+                "Lingering Damage Magicka",
+                "Resist Frost"
+            ]
         },
-        "00077e1d": {
+        "Red Mountain Flower": {
             "id": "00077e1d",
             "name": "Red Mountain Flower",
-            "effect_1_id": "0003eb17",
-            "effect_2_id": "00073f27",
-            "effect_3_id": "0003eaf8",
-            "effect_4_id": "0003eb42",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Magicka",
+                "Ravage Magicka",
+                "Fortify Magicka",
+                "Damage Health"
+            ]
         },
-        "00106e1a": {
+        "River Betty": {
             "id": "00106e1a",
             "name": "River Betty",
-            "effect_1_id": "0003eb42",
-            "effect_2_id": "0003eb24",
-            "effect_3_id": "00073f25",
-            "effect_4_id": "0003eb01",
             "weight": 0.25,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Damage Health",
+                "Fortify Alteration",
+                "Slow",
+                "Fortify Carry Weight"
+            ]
         },
-        "0007e8c8": {
+        "Rock Warbler Egg": {
             "id": "0007e8c8",
             "name": "Rock Warbler Egg",
-            "effect_1_id": "0003eb15",
-            "effect_2_id": "0003eb19",
-            "effect_3_id": "0003a2c6",
-            "effect_4_id": "00073f51",
             "weight": 0.5,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Health",
+                "Fortify One Handed",
+                "Damage Stamina",
+                "Weakness to Magic"
+            ]
         },
-        "0006bc04": {
+        "Sabre Cat Tooth": {
             "id": "0006bc04",
             "name": "Sabre Cat Tooth",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb1e",
-            "effect_3_id": "0003eb1d",
-            "effect_4_id": "00090042",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Heavy Armor",
+                "Fortify Smithing",
+                "Weakness to Poison"
+            ]
         },
-        "00034cdf": {
+        "Salt Pile": {
             "id": "00034cdf",
             "name": "Salt Pile",
-            "effect_1_id": "00073f51",
-            "effect_2_id": "0003eb28",
-            "effect_3_id": "00073f25",
-            "effect_4_id": "0003eb07",
             "weight": 0.2,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Weakness to Magic",
+                "Fortify Restoration",
+                "Slow",
+                "Regenerate Magicka"
+            ]
         },
-        "0006f950": {
+        "Scaly Pholiota": {
             "id": "0006f950",
             "name": "Scaly Pholiota",
-            "effect_1_id": "00073f51",
-            "effect_2_id": "0003eb27",
-            "effect_3_id": "0003eb08",
-            "effect_4_id": "0003eb01",
             "weight": 0.25,
-            "value": 4
+            "value": 4,
+            "effects": [
+                "Weakness to Magic",
+                "Fortify Illusion",
+                "Regenerate Stamina",
+                "Fortify Carry Weight"
+            ]
         },
-        "00106e1c": {
+        "Silverside Perch": {
             "id": "00106e1c",
             "name": "Silverside Perch",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "00073f2c",
-            "effect_3_id": "00073f26",
-            "effect_4_id": "0003eaeb",
             "weight": 0.25,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Restore Stamina",
+                "Damage Stamina Regen",
+                "Ravage Health",
+                "Resist Frost"
+            ]
         },
-        "0003ad6f": {
+        "Skeever Tail": {
             "id": "0003ad6f",
             "name": "Skeever Tail",
-            "effect_1_id": "00073f2c",
-            "effect_2_id": "00073f26",
-            "effect_3_id": "0003eb42",
-            "effect_4_id": "0003eb1f",
             "weight": 0.2,
-            "value": 3
+            "value": 3,
+            "effects": [
+                "Damage Stamina Regen",
+                "Ravage Health",
+                "Damage Health",
+                "Fortify Light Armor"
+            ]
         },
-        "0007e8c5": {
+        "Slaughterfish Egg": {
             "id": "0007e8c5",
             "name": "Slaughterfish Egg",
-            "effect_1_id": "00090041",
-            "effect_2_id": "0003eb20",
-            "effect_3_id": "0010aa4a",
-            "effect_4_id": "0003eaf9",
             "weight": 0.2,
-            "value": 3
+            "value": 3,
+            "effects": [
+                "Resist Poison",
+                "Fortify Pickpocket",
+                "Lingering Damage Health",
+                "Fortify Stamina"
+            ]
         },
-        "0003ad70": {
+        "Slaughterfish Scales": {
             "id": "0003ad70",
             "name": "Slaughterfish Scales",
-            "effect_1_id": "0003eaeb",
-            "effect_2_id": "0010aa4a",
-            "effect_3_id": "0003eb1e",
-            "effect_4_id": "0003eb1c",
             "weight": 0.1,
-            "value": 3
+            "value": 3,
+            "effects": [
+                "Resist Frost",
+                "Lingering Damage Health",
+                "Fortify Heavy Armor",
+                "Fortify Block"
+            ]
         },
-        "0006bc0b": {
+        "Small Antlers": {
             "id": "0006bc0b",
             "name": "Small Antlers",
-            "effect_1_id": "00090042",
-            "effect_2_id": "0003eb28",
-            "effect_3_id": "0010de5e",
-            "effect_4_id": "0003eb42",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Weakness to Poison",
+                "Fortify Restoration",
+                "Lingering Damage Stamina",
+                "Damage Health"
+            ]
         },
-        "00085500": {
+        "Small Pearl": {
             "id": "00085500",
             "name": "Small Pearl",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb19",
-            "effect_3_id": "0003eb28",
-            "effect_4_id": "0003eaeb",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify One Handed",
+                "Fortify Restoration",
+                "Resist Frost"
+            ]
         },
-        "0001b3bd": {
+        "Snowberries": {
             "id": "0001b3bd",
             "name": "Snowberries",
-            "effect_1_id": "0003eaea",
-            "effect_2_id": "0003eb29",
-            "effect_3_id": "0003eaeb",
-            "effect_4_id": "0003eaec",
             "weight": 0.1,
-            "value": 4
+            "value": 4,
+            "effects": [
+                "Resist Fire",
+                "Fortify Enchanting",
+                "Resist Frost",
+                "Resist Shock"
+            ]
         },
-        "0009151b": {
+        "Spider Egg": {
             "id": "0009151b",
             "name": "Spider Egg",
-            "effect_1_id": "0003a2c6",
-            "effect_2_id": "00073f2b",
-            "effect_3_id": "0003eb21",
-            "effect_4_id": "0003eb1b",
             "weight": 0.2,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Damage Stamina",
+                "Damage Magicka Regen",
+                "Fortify Lockpicking",
+                "Fortify Marksman"
+            ]
         },
-        "00063b5f": {
+        "Spriggan Sap": {
             "id": "00063b5f",
             "name": "Spriggan Sap",
-            "effect_1_id": "00073f2b",
-            "effect_2_id": "0003eb29",
-            "effect_3_id": "0003eb1d",
-            "effect_4_id": "0003eb24",
             "weight": 0.2,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Damage Magicka Regen",
+                "Fortify Enchanting",
+                "Fortify Smithing",
+                "Fortify Alteration"
+            ]
         },
-        "0007e8b7": {
+        "Swamp Fungal Pod": {
             "id": "0007e8b7",
             "name": "Swamp Fungal Pod",
-            "effect_1_id": "0003eaec",
-            "effect_2_id": "0010de5f",
-            "effect_3_id": "00073f30",
-            "effect_4_id": "0003eb15",
             "weight": 0.25,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Resist Shock",
+                "Lingering Damage Magicka",
+                "Paralysis",
+                "Restore Health"
+            ]
         },
-        "0003ad71": {
+        "Taproot": {
             "id": "0003ad71",
             "name": "Taproot",
-            "effect_1_id": "00073f51",
-            "effect_2_id": "0003eb27",
-            "effect_3_id": "0003eb07",
-            "effect_4_id": "0003eb17",
             "weight": 0.5,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Weakness to Magic",
+                "Fortify Illusion",
+                "Regenerate Magicka",
+                "Restore Magicka"
+            ]
         },
-        "000134aa": {
+        "Thistle Branch": {
             "id": "000134aa",
             "name": "Thistle Branch",
-            "effect_1_id": "0003eaeb",
-            "effect_2_id": "00073f23",
-            "effect_3_id": "00090041",
-            "effect_4_id": "0003eb1e",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Frost",
+                "Ravage Stamina",
+                "Resist Poison",
+                "Fortify Heavy Armor"
+            ]
         },
-        "0004da73": {
+        "Torchbug Thorax": {
             "id": "0004da73",
             "name": "Torchbug Thorax",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0010de5f",
-            "effect_3_id": "00073f51",
-            "effect_4_id": "0003eaf9",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Restore Stamina",
+                "Lingering Damage Magicka",
+                "Weakness to Magic",
+                "Fortify Stamina"
+            ]
         },
-        "0003ad72": {
+        "Troll Fat": {
             "id": "0003ad72",
             "name": "Troll Fat",
-            "effect_1_id": "00090041",
-            "effect_2_id": "0003eb1a",
-            "effect_3_id": "00073f29",
-            "effect_4_id": "0003eb42",
             "weight": 1,
-            "value": 15
+            "value": 15,
+            "effects": [
+                "Resist Poison",
+                "Fortify Two Handed",
+                "Frenzy",
+                "Damage Health"
+            ]
         },
-        "0003f7f8": {
+        "Tundra Cotton": {
             "id": "0003f7f8",
             "name": "Tundra Cotton",
-            "effect_1_id": "00039e51",
-            "effect_2_id": "0003eaf8",
-            "effect_3_id": "0003eb1c",
-            "effect_4_id": "0003eb23",
             "weight": 0.1,
-            "value": 1
+            "value": 1,
+            "effects": [
+                "Resist Magic",
+                "Fortify Magicka",
+                "Fortify Block",
+                "Fortify Barter"
+            ]
         },
-        "0003ad76": {
+        "Vampire Dust": {
             "id": "0003ad76",
             "name": "Vampire Dust",
-            "effect_1_id": "0003eb3d",
-            "effect_2_id": "0003eb17",
-            "effect_3_id": "0003eb06",
-            "effect_4_id": "000ae723",
             "weight": 0.2,
-            "value": 25
+            "value": 25,
+            "effects": [
+                "Invisibility",
+                "Restore Magicka",
+                "Regenerate Health",
+                "Cure Disease"
+            ]
         },
-        "0003ad60": {
+        "Void Salts": {
             "id": "0003ad60",
             "name": "Void Salts",
-            "effect_1_id": "00073f2f",
-            "effect_2_id": "00039e51",
-            "effect_3_id": "0003eb42",
-            "effect_4_id": "0003eaf8",
             "weight": 0.2,
-            "value": 125
+            "value": 125,
+            "effects": [
+                "Weakness to Shock",
+                "Resist Magic",
+                "Damage Health",
+                "Fortify Magicka"
+            ]
         },
-        "0004b0ba": {
+        "Wheat": {
             "id": "0004b0ba",
             "name": "Wheat",
-            "effect_1_id": "0003eb15",
-            "effect_2_id": "0003eaf3",
-            "effect_3_id": "00073f2c",
-            "effect_4_id": "0010de5f",
             "weight": 0.1,
-            "value": 5
+            "value": 5,
+            "effects": [
+                "Restore Health",
+                "Fortify Health",
+                "Damage Stamina Regen",
+                "Lingering Damage Magicka"
+            ]
         },
-        "0004da22": {
+        "White Cap": {
             "id": "0004da22",
             "name": "White Cap",
-            "effect_1_id": "00073f2e",
-            "effect_2_id": "0003eb1e",
-            "effect_3_id": "0003eb17",
-            "effect_4_id": "00073f27",
             "weight": 0.3,
-            "value": 0
+            "value": 0,
+            "effects": [
+                "Weakness to Frost",
+                "Fortify Heavy Armor",
+                "Restore Magicka",
+                "Ravage Magicka"
+            ]
         },
-        "0006bc0e": {
+        "Wisp Wrappings": {
             "id": "0006bc0e",
             "name": "Wisp Wrappings",
-            "effect_1_id": "0003eb16",
-            "effect_2_id": "0003eb26",
-            "effect_3_id": "0003eb01",
-            "effect_4_id": "00039e51",
             "weight": 0.1,
-            "value": 2
+            "value": 2,
+            "effects": [
+                "Restore Stamina",
+                "Fortify Destruction",
+                "Fortify Carry Weight",
+                "Resist Magic"
+            ]
         }
     }
 }
