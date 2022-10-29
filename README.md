@@ -7,7 +7,10 @@
 
 # Skyrim alchemy
 
-This app wraps a database of skyrim alchemy effects and ingredients
+This app wraps a database of Skyrim alchemy effects and ingredients.  
+
+Export files also contain data for Oblivion and Morrowind, but the web app only works for Skyrim.  
+For the app for all games, see [this](https://the-elder-scrolls-alchemy.website.yandexcloud.net/#/)
 
 ## How to run
 
@@ -33,20 +36,25 @@ App will be available at  <a href="https://localhost" alt="localhost">localhost<
 ## Export
 
 ### Skyrim
-#### CSV
+
+[json](https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/skyrim.json)
+
 The database is imported from csv files, you can find them here   
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/effects.csv   
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/ingredients.csv
-#### JSON
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/skyrim.json
+[effects csv](https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/effects.csv)  
+[ingredients csv](https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/skyrim/ingredients.csv)
 
 ### Oblivion
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/oblivion/oblivion.json  
-Credit goes to https://github.com/hogart/alchemy
+
+[json](https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/oblivion/oblivion.json)  
 
 ### Morrowind
-https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/morrowind/morrowind.json  
-Credit goes to https://github.com/hogart/alchemy
+
+[json](https://github.com/gennadyterekhov/skyrim_alchemy/tree/main/public/export-files/morrowind/morrowind.json)  
+
+### Credits
+
+credit for the data goes to [hogart](https://github.com/hogart/alchemy)  
+and to all the people who contributed to [fandom](https://elderscrolls.fandom.com/wiki/Ingredients_(Morrowind)) and to [UESP](https://en.uesp.net/wiki/Morrowind:Ingredients)  
 
 ## License
 
