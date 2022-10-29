@@ -11,7 +11,10 @@
                 "Resist Poison",
                 "Telekinesis",
                 "Detect Animal"
-            ]
+            ],
+            "value": 5,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Alit_Hide"
         },
         "Ampoule Pod": {
             "id": "ingred_bc_ampoule_pod",
@@ -24,7 +27,10 @@
                 "Paralyze",
                 "Detect Animal",
                 "Drain Willpower"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Ampoule_Pod"
         },
         "Ash Salts": {
             "id": "ingred_ash_salts_01",
@@ -37,7 +43,10 @@
                 "Resist Magicka",
                 "Cure Blight Disease",
                 "Resist Magicka"
-            ]
+            ],
+            "value": 25,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Ash_Salts"
         },
         "Ash Yam": {
             "id": "ingred_ash_yam_01",
@@ -50,7 +59,10 @@
                 "Fortify Strength",
                 "Resist Common Disease",
                 "Detect Key"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.5,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Ash_Yam"
         },
         "Bittergreen Petals": {
             "id": "ingred_bittergreen_petals_01",
@@ -63,7 +75,10 @@
                 "Invisibility",
                 "Drain Endurance",
                 "Drain Magicka"
-            ]
+            ],
+            "value": 5,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Bittergreen_Petals"
         },
         "Black Anther": {
             "id": "ingred_black_anther_01",
@@ -76,7 +91,10 @@
                 "Resist Fire",
                 "Drain Endurance",
                 "Light"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Black_Anther"
         },
         "Black Lichen": {
             "id": "ingred_black_lichen_01",
@@ -89,7 +107,10 @@
                 "Resist Frost",
                 "Drain Speed",
                 "Cure Poison"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Black_Lichen"
         },
         "Bloat": {
             "id": "ingred_bloat_01",
@@ -102,7 +123,10 @@
                 "Fortify Intelligence",
                 "Fortify Willpower",
                 "Detect Animal"
-            ]
+            ],
+            "value": 5,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Bloat"
         },
         "Bonemeal": {
             "id": "ingred_bonemeal_01",
@@ -115,7 +139,10 @@
                 "Telekinesis",
                 "Drain Fatigue",
                 "Drain Personality"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Bonemeal"
         },
         "Bread": {
             "id": "ingred_bread_01",
@@ -125,7 +152,10 @@
             "icon": "http:\/\/images.uesp.net\/a\/a4\/MW-icon-ingredient-Bread.png",
             "effects": [
                 "Restore Fatigue"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Bread"
         },
         "Bungler's Bane": {
             "id": "ingred_bc_bungler's_bane",
@@ -138,7 +168,10 @@
                 "Drain Endurance",
                 "Dispel",
                 "Drain Strength"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.5,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Bungler%27s_Bane"
         },
         "Chokeweed": {
             "id": "ingred_chokeweed_01",
@@ -151,7 +184,10 @@
                 "Restore Fatigue",
                 "Cure Common Disease",
                 "Drain Willpower"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Chokeweed"
         },
         "Coda Flower": {
             "id": "ingred_bc_coda_flower",
@@ -164,7 +200,10 @@
                 "Levitate",
                 "Drain Intelligence",
                 "Drain Health"
-            ]
+            ],
+            "value": 23,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Coda_Flower"
         },
         "Comberry": {
             "id": "ingred_comberry_01",
@@ -177,7 +216,10 @@
                 "Restore Magicka",
                 "Fire Shield",
                 "Reflect"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Comberry"
         },
         "Corkbulb Root": {
             "id": "ingred_corkbulb_root_01",
@@ -190,7 +232,10 @@
                 "Restore Health",
                 "Lightning Shield",
                 "Fortify Luck"
-            ]
+            ],
+            "value": 5,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Corkbulb_Root"
         },
         "Corprus Weepings": {
             "id": "ingred_corprus_weepings_01",
@@ -203,7 +248,10 @@
                 "Fortify Luck",
                 "Drain Willpower",
                 "Restore Health"
-            ]
+            ],
+            "value": 50,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Corprus_Weepings"
         },
         "Crab Meat": {
             "id": "ingred_crab_meat_01",
@@ -216,7 +264,10 @@
                 "Resist Shock",
                 "Lightning Shield",
                 "Restore Luck"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.5,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Crab_Meat"
         },
         "Daedra Skin": {
             "id": "ingred_daedra_skin_01",
@@ -229,7 +280,10 @@
                 "Cure Common Disease",
                 "Paralyze",
                 "Swift Swim"
-            ]
+            ],
+            "value": 200,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Daedra_Skin"
         },
         "Daedra's Heart": {
             "id": "ingred_daedras_heart_01",
@@ -242,7 +296,10 @@
                 "Fortify Endurance",
                 "Drain Agility",
                 "Night Eye"
-            ]
+            ],
+            "value": 200,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Daedra%27s_Heart"
         },
         "Diamond": {
             "id": "ingred_diamond_01",
@@ -255,7 +312,10 @@
                 "Invisibility",
                 "Reflect",
                 "Detect Key"
-            ]
+            ],
+            "value": 250,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Diamond"
         },
         "Dreugh Wax": {
             "id": "ingred_dreugh_wax_01",
@@ -268,7 +328,10 @@
                 "Restore Strength",
                 "Drain Luck",
                 "Drain Willpower"
-            ]
+            ],
+            "value": 100,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Dreugh_Wax"
         },
         "Ectoplasm": {
             "id": "ingred_ectoplasm_01",
@@ -281,7 +344,10 @@
                 "Detect Animal",
                 "Drain Strength",
                 "Drain Health"
-            ]
+            ],
+            "value": 10,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Ectoplasm"
         },
         "Emerald": {
             "id": "ingred_emerald_01",
@@ -294,7 +360,10 @@
                 "Restore Health",
                 "Drain Agility",
                 "Drain Endurance"
-            ]
+            ],
+            "value": 150,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Emerald"
         },
         "Fire Petal": {
             "id": "ingred_fire_petal_01",
@@ -307,7 +376,10 @@
                 "Drain Health",
                 "Spell Absorption",
                 "Paralyze"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fire_Petal"
         },
         "Fire Salts": {
             "id": "ingred_fire_salts_01",
@@ -320,7 +392,10 @@
                 "Fortify Agility",
                 "Resist Frost",
                 "Fire Shield"
-            ]
+            ],
+            "value": 100,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fire_Salts"
         },
         "Frost Salts": {
             "id": "ingred_frost_salts_01",
@@ -333,7 +408,10 @@
                 "Restore Magicka",
                 "Frost Shield",
                 "Resist Fire"
-            ]
+            ],
+            "value": 75,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Frost_Salts"
         },
         "Ghoul Heart": {
             "id": "ingred_ghoul_heart_01",
@@ -345,7 +423,10 @@
                 "Paralyze",
                 "Cure Poison",
                 "Fortify Attack"
-            ]
+            ],
+            "value": 150,
+            "weight": 0.5,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Ghoul_Heart"
         },
         "Gold Kanet": {
             "id": "ingred_gold_kanet_01",
@@ -358,7 +439,10 @@
                 "Burden",
                 "Drain Luck",
                 "Restore Strength"
-            ]
+            ],
+            "value": 5,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Gold_Kanet"
         },
         "Gravedust": {
             "id": "ingred_gravedust_01",
@@ -371,7 +455,10 @@
                 "Cure Common Disease",
                 "Drain Magicka",
                 "Restore Endurance"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Gravedust"
         },
         "Green Lichen": {
             "id": "ingred_green_lichen_01",
@@ -384,7 +471,10 @@
                 "Cure Common Disease",
                 "Drain Strength",
                 "Drain Health"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Green_Lichen"
         },
         "Guar Hide": {
             "id": "ingred_guar_hide_01",
@@ -397,7 +487,10 @@
                 "Fortify Endurance",
                 "Restore Personality",
                 "Fortify Luck"
-            ]
+            ],
+            "value": 5,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Guar_Hide"
         },
         "Hackle-Lo Leaf": {
             "id": "ingred_hackle-lo_leaf_01",
@@ -410,7 +503,10 @@
                 "Paralyze",
                 "Water Breathing",
                 "Restore Luck"
-            ]
+            ],
+            "value": 30,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Hackle-Lo_Leaf"
         },
         "Heather": {
             "id": "ingred_heather_01",
@@ -423,7 +519,10 @@
                 "Feather",
                 "Drain Speed",
                 "Drain Personality"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Heather"
         },
         "Hound Meat": {
             "id": "ingred_hound_meat_01",
@@ -436,7 +535,10 @@
                 "Fortify Fatigue",
                 "Reflect",
                 "Detect Enchantment"
-            ]
+            ],
+            "value": 2,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Hound_Meat"
         },
         "Hypha Facia": {
             "id": "ingred_bc_hypha_facia",
@@ -449,7 +551,10 @@
                 "Drain Agility",
                 "Drain Fatigue",
                 "Detect Enchantment"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Hypha_Facia"
         },
         "Kagouti Hide": {
             "id": "ingred_kagouti_hide_01",
@@ -462,7 +567,10 @@
                 "Fortify Speed",
                 "Resist Common Disease",
                 "Night Eye"
-            ]
+            ],
+            "value": 2,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Kagouti_Hide"
         },
         "Kresh Fiber": {
             "id": "ingred_kresh_fiber_01",
@@ -475,7 +583,10 @@
                 "Fortify Personality",
                 "Drain Magicka",
                 "Drain Speed"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Kresh_Fiber"
         },
         "Kwama Cuttle": {
             "id": "ingred_kwama_cuttle_01",
@@ -488,7 +599,10 @@
                 "Drain Fatigue",
                 "Water Walking",
                 "Water Breathing"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Kwama_Cuttle"
         },
         "Large Kwama Egg": {
             "id": "food_kwama_egg_02",
@@ -501,7 +615,10 @@
                 "Paralyze",
                 "Frost Shield",
                 "Fortify Health"
-            ]
+            ],
+            "value": 2,
+            "weight": 2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Large_Kwama_Egg"
         },
         "Luminous Russula": {
             "id": "ingred_russula_01",
@@ -513,7 +630,10 @@
                 "Water Breathing",
                 "Drain Fatigue",
                 "Poison"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Luminous_Russula"
         },
         "Marshmerrow": {
             "id": "ingred_marshmerrow_01",
@@ -526,7 +646,10 @@
                 "Detect Enchantment",
                 "Drain Willpower",
                 "Drain Fatigue"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Marshmerrow"
         },
         "Moon Sugar": {
             "id": "ingred_moon_sugar_01",
@@ -539,7 +662,10 @@
                 "Dispel",
                 "Drain Endurance",
                 "Drain Luck"
-            ]
+            ],
+            "value": 50,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Moon_Sugar"
         },
         "Muck": {
             "id": "ingred_muck_01",
@@ -552,7 +678,10 @@
                 "Detect Key",
                 "Drain Personality",
                 "Cure Common Disease"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Muck"
         },
         "Netch Leather": {
             "id": "ingred_netch_leather_01",
@@ -565,7 +694,10 @@
                 "Fortify Intelligence",
                 "Drain Personality",
                 "Cure Paralyzation"
-            ]
+            ],
+            "value": 1,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Netch_Leather"
         },
         "Pearl": {
             "id": "ingred_pearl_01",
@@ -578,7 +710,10 @@
                 "Dispel",
                 "Water Breathing",
                 "Resist Common Disease"
-            ]
+            ],
+            "value": 100,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Pearl"
         },
         "Racer Plumes": {
             "id": "ingred_racer_plumes_01",
@@ -589,7 +724,10 @@
             "effects": [
                 "Drain Willpower",
                 "Levitate"
-            ]
+            ],
+            "value": 20,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Racer_Plumes"
         },
         "Rat Meat": {
             "id": "ingred_rat_meat_01",
@@ -602,7 +740,10 @@
                 "Paralyze",
                 "Cure Poison",
                 "Resist Poison"
-            ]
+            ],
+            "value": 1,
+            "weight": 1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Rat_Meat"
         },
         "Raw Ebony": {
             "id": "ingred_raw_ebony_01",
@@ -615,7 +756,10 @@
                 "Cure Poison",
                 "Frost Shield",
                 "Restore Speed"
-            ]
+            ],
+            "value": 200,
+            "weight": 10,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Raw_Ebony"
         },
         "Raw Glass": {
             "id": "ingred_raw_glass_01",
@@ -628,7 +772,10 @@
                 "Drain Strength",
                 "Drain Speed",
                 "Fire Shield"
-            ]
+            ],
+            "value": 200,
+            "weight": 2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Raw_Glass"
         },
         "Red Lichen": {
             "id": "ingred_red_lichen_01",
@@ -641,7 +788,10 @@
                 "Light",
                 "Cure Common Disease",
                 "Drain Magicka"
-            ]
+            ],
+            "value": 25,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Red_Lichen"
         },
         "Resin": {
             "id": "ingred_resin_01",
@@ -654,7 +804,10 @@
                 "Restore Speed",
                 "Burden",
                 "Resist Common Disease"
-            ]
+            ],
+            "value": 50,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Shalk_Resin"
         },
         "Roobrush": {
             "id": "ingred_roobrush_01",
@@ -667,7 +820,10 @@
                 "Fortify Agility",
                 "Drain Health",
                 "Cure Poison"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Roobrush"
         },
         "Ruby": {
             "id": "ingred_ruby_01",
@@ -680,7 +836,10 @@
                 "Feather",
                 "Restore Intelligence",
                 "Drain Agility"
-            ]
+            ],
+            "value": 200,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Ruby"
         },
         "Saltrice": {
             "id": "ingred_saltrice_01",
@@ -693,7 +852,10 @@
                 "Fortify Magicka",
                 "Drain Strength",
                 "Restore Health"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Saltrice"
         },
         "Scales": {
             "id": "ingred_scales_01",
@@ -706,7 +868,10 @@
                 "Water Walking",
                 "Restore Endurance",
                 "Swift Swim"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scales"
         },
         "Scamp Skin": {
             "id": "ingred_scamp_skin_01",
@@ -719,7 +884,10 @@
                 "Cure Paralyzation",
                 "Restore Personality",
                 "Restore Strength"
-            ]
+            ],
+            "value": 10,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scamp_Skin"
         },
         "Scathecraw": {
             "id": "ingred_scathecraw_01",
@@ -732,7 +900,10 @@
                 "Cure Poison",
                 "Drain Health",
                 "Restore Willpower"
-            ]
+            ],
+            "value": 2,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scathecraw"
         },
         "Scrap Metal": {
             "id": "ingred_scrap_metal_01",
@@ -745,7 +916,10 @@
                 "Lightning Shield",
                 "Resist Shock",
                 "Restore Intelligence"
-            ]
+            ],
+            "value": 20,
+            "weight": 10,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scrap_Metal"
         },
         "Scrib Jelly": {
             "id": "ingred_scrib_jelly_01",
@@ -758,7 +932,10 @@
                 "Cure Poison",
                 "Cure Blight Disease",
                 "Restore Willpower"
-            ]
+            ],
+            "value": 10,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scrib_Jelly"
         },
         "Scrib Jerky": {
             "id": "ingred_scrib_jerky_01",
@@ -771,7 +948,10 @@
                 "Fortify Fatigue",
                 "Burden",
                 "Swift Swim"
-            ]
+            ],
+            "value": 5,
+            "weight": 0.2,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scrib_Jerky"
         },
         "Scuttle": {
             "id": "ingred_scuttle_01",
@@ -784,7 +964,10 @@
                 "Fortify Fatigue",
                 "Feather",
                 "Telekinesis"
-            ]
+            ],
+            "value": 10,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Scuttle"
         },
         "Sload Soap": {
             "id": "ingred_sload_soap_01",
@@ -797,7 +980,10 @@
                 "Fortify Agility",
                 "Fire Shield",
                 "Restore Agility"
-            ]
+            ],
+            "value": 50,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Sload_Soap"
         },
         "Small Kwama Egg": {
             "id": "food_kwama_egg_01",
@@ -807,7 +993,10 @@
             "icon": "http:\/\/images.uesp.net\/7\/73\/MW-icon-ingredient-Kwama_Egg.png",
             "effects": [
                 "Restore Fatigue"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.5,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Small_Kwama_Egg"
         },
         "Spore Pod": {
             "id": "ingred_bc_spore_pod",
@@ -820,7 +1009,10 @@
                 "Drain Fatigue",
                 "Detect Key",
                 "Paralyze"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Spore_Pod"
         },
         "Stoneflower Petals": {
             "id": "ingred_stoneflower_petals_01",
@@ -833,7 +1025,10 @@
                 "Fortify Magicka",
                 "Drain Luck",
                 "Fortify Personality"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Stoneflower_Petals"
         },
         "Trama Root": {
             "id": "ingred_trama_root_01",
@@ -846,7 +1041,10 @@
                 "Levitate",
                 "Drain Magicka",
                 "Drain Speed"
-            ]
+            ],
+            "value": 10,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Trama_Root"
         },
         "Vampire Dust": {
             "id": "ingred_vampire_dust_01",
@@ -859,7 +1057,10 @@
                 "Fortify Strength",
                 "Spell Absorption",
                 "Vampirism"
-            ]
+            ],
+            "value": 500,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Vampire_Dust"
         },
         "Violet Coprinus": {
             "id": "ingred_coprinus_01",
@@ -871,7 +1072,10 @@
                 "Water Walking",
                 "Drain Fatigue",
                 "Poison"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.5,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Violet_Coprinus"
         },
         "Void Salts": {
             "id": "ingred_void_salts_01",
@@ -884,7 +1088,10 @@
                 "Spell Absorption",
                 "Paralyze",
                 "Drain Endurance"
-            ]
+            ],
+            "value": 100,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Void_Salts"
         },
         "Wickwheat": {
             "id": "ingred_wickwheat_01",
@@ -897,7 +1104,10 @@
                 "Fortify Willpower",
                 "Paralyze",
                 "Damage Intelligence"
-            ]
+            ],
+            "value": 1,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Wickwheat"
         },
         "Willow Anther": {
             "id": "ingred_willow_anther_01",
@@ -910,7 +1120,10 @@
                 "Frost Shield",
                 "Cure Common Disease",
                 "Cure Paralyzation"
-            ]
+            ],
+            "value": 10,
+            "weight": 0.1,
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Willow_Anther"
         }
     },
     "effects": {
@@ -928,7 +1141,10 @@
                     "Coda Flower"
                 ],
                 []
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Resist Poison": {
             "name": "Resist Poison",
@@ -943,7 +1159,10 @@
                 [
                     "Rat Meat"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/ea\/MW-icon-effect-Resist_Poison.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Resist_Poison"
         },
         "Telekinesis": {
             "name": "Telekinesis",
@@ -958,7 +1177,10 @@
                 [
                     "Scuttle"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/7\/74\/MW-icon-effect-Telekinesis.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Telekinesis"
         },
         "Detect Animal": {
             "name": "Detect Animal",
@@ -974,7 +1196,10 @@
                     "Alit Hide",
                     "Bloat"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/9\/97\/MW-icon-effect-Detect_Animal.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Detect_Animal"
         },
         "Water Walking": {
             "name": "Water Walking",
@@ -990,7 +1215,10 @@
                     "Kwama Cuttle"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/d\/da\/MW-icon-effect-Water_Walking.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Water_Walking"
         },
         "Paralyze": {
             "name": "Paralyze",
@@ -1013,7 +1241,10 @@
                     "Fire Petal",
                     "Spore Pod"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/4\/48\/MW-icon-effect-Paralyze.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Paralyze"
         },
         "Drain Willpower": {
             "name": "Drain Willpower",
@@ -1032,7 +1263,10 @@
                     "Chokeweed",
                     "Dreugh Wax"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Drain Agility": {
             "name": "Drain Agility",
@@ -1054,7 +1288,10 @@
                 [
                     "Ruby"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Resist Magicka": {
             "name": "Resist Magicka",
@@ -1066,7 +1303,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/84\/MW-icon-effect-Resist_Magicka.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Resist_Magicka"
         },
         "Cure Blight Disease": {
             "name": "Cure Blight Disease",
@@ -1078,7 +1318,10 @@
                     "Scrib Jelly"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/a\/a3\/MW-icon-effect-Cure_Blight_Disease.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Cure_Blight_Disease"
         },
         "Fortify Intelligence": {
             "name": "Fortify Intelligence",
@@ -1092,7 +1335,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Fortify Strength": {
             "name": "Fortify Strength",
@@ -1107,7 +1353,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Resist Common Disease": {
             "name": "Resist Common Disease",
@@ -1122,7 +1371,10 @@
                     "Pearl",
                     "Resin"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/a\/a5\/MW-icon-effect-Resist_Common_Disease.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Resist_Common_Disease"
         },
         "Detect Key": {
             "name": "Detect Key",
@@ -1138,7 +1390,10 @@
                     "Ash Yam",
                     "Diamond"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/b\/b7\/MW-icon-effect-Detect_Key.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Detect_Key"
         },
         "Restore Intelligence": {
             "name": "Restore Intelligence",
@@ -1153,7 +1408,10 @@
                 [
                     "Scrap Metal"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Invisibility": {
             "name": "Invisibility",
@@ -1165,7 +1423,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/80\/MW-icon-effect-Invisibility.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Invisibility"
         },
         "Drain Endurance": {
             "name": "Drain Endurance",
@@ -1183,7 +1444,10 @@
                     "Emerald",
                     "Void Salts"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Drain Magicka": {
             "name": "Drain Magicka",
@@ -1203,7 +1467,10 @@
                     "Bittergreen Petals",
                     "Red Lichen"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/55\/MW-icon-effect-Drain_Magicka.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Magicka"
         },
         "Resist Fire": {
             "name": "Resist Fire",
@@ -1218,7 +1485,10 @@
                 [
                     "Frost Salts"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/0\/04\/MW-icon-effect-Resist_Fire.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Resist_Fire"
         },
         "Light": {
             "name": "Light",
@@ -1231,7 +1501,10 @@
                 [
                     "Black Anther"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/0\/0f\/MW-icon-effect-Light.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Light"
         },
         "Drain Strength": {
             "name": "Drain Strength",
@@ -1252,7 +1525,10 @@
                 [
                     "Bungler's Bane"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Resist Frost": {
             "name": "Resist Frost",
@@ -1265,7 +1541,10 @@
                     "Fire Salts"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/0\/08\/MW-icon-effect-Resist_Frost.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Resist_Frost"
         },
         "Drain Speed": {
             "name": "Drain Speed",
@@ -1285,7 +1564,10 @@
                     "Kresh Fiber",
                     "Trama Root"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Cure Poison": {
             "name": "Cure Poison",
@@ -1304,7 +1586,10 @@
                     "Black Lichen",
                     "Roobrush"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/7\/72\/MW-icon-effect-Cure_Poison.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Cure_Poison"
         },
         "Fortify Willpower": {
             "name": "Fortify Willpower",
@@ -1319,7 +1604,10 @@
                     "Bloat"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Restore Agility": {
             "name": "Restore Agility",
@@ -1332,7 +1620,10 @@
                 [
                     "Sload Soap"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Drain Fatigue": {
             "name": "Drain Fatigue",
@@ -1356,7 +1647,10 @@
                 [
                     "Marshmerrow"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/c\/c4\/MW-icon-effect-Drain_Fatigue.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Fatigue"
         },
         "Drain Personality": {
             "name": "Drain Personality",
@@ -1376,7 +1670,10 @@
                     "Bonemeal",
                     "Heather"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Restore Fatigue": {
             "name": "Restore Fatigue",
@@ -1397,7 +1694,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/2\/2f\/MW-icon-effect-Restore_Fatigue.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Fatigue"
         },
         "Dispel": {
             "name": "Dispel",
@@ -1411,7 +1711,10 @@
                     "Bungler's Bane"
                 ],
                 []
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/50\/MW-icon-effect-Dispel.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Dispel"
         },
         "Drain Luck": {
             "name": "Drain Luck",
@@ -1429,7 +1732,10 @@
                 [
                     "Moon Sugar"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/57\/MW-icon-effect-Drain_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Attribute"
         },
         "Cure Common Disease": {
             "name": "Cure Common Disease",
@@ -1448,7 +1754,10 @@
                 [
                     "Muck"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e5\/MW-icon-effect-Cure_Common_Disease.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Cure_Common_Disease"
         },
         "Levitate": {
             "name": "Levitate",
@@ -1461,7 +1770,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/0\/08\/MW-icon-effect-Levitate.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Levitate"
         },
         "Drain Health": {
             "name": "Drain Health",
@@ -1484,7 +1796,10 @@
                     "Ectoplasm",
                     "Green Lichen"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/1\/11\/MW-icon-effect-Drain_Health.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Drain_Health"
         },
         "Restore Magicka": {
             "name": "Restore Magicka",
@@ -1499,7 +1814,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/d\/d8\/MW-icon-effect-Restore_Magicka.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Magicka"
         },
         "Fire Shield": {
             "name": "Fire Shield",
@@ -1514,7 +1832,10 @@
                     "Fire Salts",
                     "Raw Glass"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/4\/4e\/MW-icon-effect-Fire_Shield.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fire_Shield"
         },
         "Reflect": {
             "name": "Reflect",
@@ -1528,7 +1849,10 @@
                 [
                     "Comberry"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e3\/MW-icon-effect-Reflect.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Reflect"
         },
         "Cure Paralyzation": {
             "name": "Cure Paralyzation",
@@ -1544,7 +1868,10 @@
                     "Netch Leather",
                     "Willow Anther"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/4\/4b\/MW-icon-effect-Cure_Paralyzation.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Cure_Paralyzation"
         },
         "Restore Health": {
             "name": "Restore Health",
@@ -1563,7 +1890,10 @@
                     "Corprus Weepings",
                     "Saltrice"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/82\/MW-icon-effect-Restore_Health.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Health"
         },
         "Lightning Shield": {
             "name": "Lightning Shield",
@@ -1577,7 +1907,10 @@
                     "Crab Meat"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/2\/2c\/MW-icon-effect-Lightning_Shield.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Lightning_Shield"
         },
         "Fortify Luck": {
             "name": "Fortify Luck",
@@ -1591,7 +1924,10 @@
                     "Corkbulb Root",
                     "Guar Hide"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Resist Shock": {
             "name": "Resist Shock",
@@ -1604,7 +1940,10 @@
                     "Scrap Metal"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/4\/48\/MW-icon-effect-Resist_Shock.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Resist_Shock"
         },
         "Restore Luck": {
             "name": "Restore Luck",
@@ -1618,7 +1957,10 @@
                     "Crab Meat",
                     "Hackle-Lo Leaf"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Swift Swim": {
             "name": "Swift Swim",
@@ -1631,7 +1973,10 @@
                     "Scales",
                     "Scrib Jerky"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/f\/f5\/MW-icon-effect-Swift_Swim.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Swift_Swim"
         },
         "Fortify Endurance": {
             "name": "Fortify Endurance",
@@ -1645,7 +1990,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Night Eye": {
             "name": "Night Eye",
@@ -1657,7 +2005,10 @@
                     "Daedra's Heart",
                     "Kagouti Hide"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/3\/3a\/MW-icon-effect-Night_Eye.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Night_Eye"
         },
         "Restore Strength": {
             "name": "Restore Strength",
@@ -1673,7 +2024,10 @@
                     "Gold Kanet",
                     "Scamp Skin"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Fortify Agility": {
             "name": "Fortify Agility",
@@ -1688,7 +2042,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Fortify Magicka": {
             "name": "Fortify Magicka",
@@ -1702,7 +2059,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/6\/6c\/MW-icon-effect-Fortify_Magicka.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Magicka"
         },
         "Spell Absorption": {
             "name": "Spell Absorption",
@@ -1716,7 +2076,10 @@
                     "Vampire Dust"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/81\/MW-icon-effect-Spell_Absorption.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Spell_Absorption"
         },
         "Frost Shield": {
             "name": "Frost Shield",
@@ -1731,7 +2094,10 @@
                     "Raw Ebony"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/6\/6e\/MW-icon-effect-Frost_Shield.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Frost_Shield"
         },
         "Fortify Attack": {
             "name": "Fortify Attack",
@@ -1742,7 +2108,10 @@
                     "Ghoul Heart"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/4\/4d\/MW-icon-effect-Fortify_Attack.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attack"
         },
         "Burden": {
             "name": "Burden",
@@ -1756,7 +2125,10 @@
                     "Scrib Jerky"
                 ],
                 []
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/5\/54\/MW-icon-effect-Burden.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Burden"
         },
         "Restore Endurance": {
             "name": "Restore Endurance",
@@ -1769,7 +2141,10 @@
                 [
                     "Gravedust"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Fortify Personality": {
             "name": "Fortify Personality",
@@ -1784,7 +2159,10 @@
                 [
                     "Stoneflower Petals"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Restore Personality": {
             "name": "Restore Personality",
@@ -1798,7 +2176,10 @@
                     "Scamp Skin"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Water Breathing": {
             "name": "Water Breathing",
@@ -1814,7 +2195,10 @@
                 [
                     "Kwama Cuttle"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/b\/b0\/MW-icon-effect-Water_Breathing.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Water_Breathing"
         },
         "Feather": {
             "name": "Feather",
@@ -1828,7 +2212,10 @@
                     "Scuttle"
                 ],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/f\/f8\/MW-icon-effect-Feather.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Feather"
         },
         "Fortify Fatigue": {
             "name": "Fortify Fatigue",
@@ -1841,7 +2228,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/0\/03\/MW-icon-effect-Fortify_Fatigue.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Fatigue"
         },
         "Detect Enchantment": {
             "name": "Detect Enchantment",
@@ -1855,7 +2245,10 @@
                     "Hound Meat",
                     "Hypha Facia"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/b\/b9\/MW-icon-effect-Detect_Enchantment.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Detect_Enchantment"
         },
         "Fortify Speed": {
             "name": "Fortify Speed",
@@ -1868,7 +2261,10 @@
                 ],
                 [],
                 []
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/e\/e6\/MW-icon-effect-Fortify_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Attribute"
         },
         "Fortify Health": {
             "name": "Fortify Health",
@@ -1881,7 +2277,10 @@
                 [
                     "Large Kwama Egg"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/f\/fb\/MW-icon-effect-Fortify_Health.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Fortify_Health"
         },
         "Poison": {
             "name": "Poison",
@@ -1893,7 +2292,10 @@
                     "Violet Coprinus"
                 ],
                 []
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/d\/d0\/MW-icon-effect-Poison.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Poison"
         },
         "Restore Speed": {
             "name": "Restore Speed",
@@ -1906,7 +2308,10 @@
                 [
                     "Raw Ebony"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Restore Willpower": {
             "name": "Restore Willpower",
@@ -1920,7 +2325,10 @@
                     "Scathecraw",
                     "Scrib Jelly"
                 ]
-            ]
+            ],
+            "type": "positive",
+            "icon": "https:\/\/images.uesp.net\/thumb\/8\/85\/MW-icon-effect-Restore_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Restore_Attribute"
         },
         "Vampirism": {
             "name": "Vampirism",
@@ -1931,7 +2339,10 @@
                 [
                     "Vampire Dust"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/d\/d7\/MW-icon-effect-Vampirism.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Vampirism"
         },
         "Damage Intelligence": {
             "name": "Damage Intelligence",
@@ -1942,7 +2353,10 @@
                 [
                     "Wickwheat"
                 ]
-            ]
+            ],
+            "type": "negative",
+            "icon": "https:\/\/images.uesp.net\/thumb\/a\/a4\/MW-icon-effect-Damage_Attribute.jpg",
+            "uesp_url": "https:\/\/en.uesp.net\/wiki\/Morrowind:Damage_Attribute"
         }
     }
 }
