@@ -4,24 +4,16 @@ namespace App\Console\Commands;
 
 use App\Service\Parser\MorrowindUespParserService;
 use App\Service\Parser\OblivionUespParserService;
-use App\Service\Parser\ParserInterface;
 use App\Service\Parser\SkyrimUespParserService;
 use Exception;
 use Illuminate\Console\Command;
 use LogicException;
 
-/**
- * @see https://elderscrolls.fandom.com/wiki/Ingredients_(Morrowind)
- * @see https://en.uesp.net/wiki/Morrowind:Ingredients
- * code is suboptimal, but it's ok. designed to be run once to get json data.
- * it works iteratively, changing current version of the file
- */
-class ParseOnlineData extends Command
+class Reindex extends Command
 {
-    private const SOURCE_FILE_FORMAT = '/app/parse/%s/%s.html';
     private const CURRENT_FILE = '/export-files/%s/%s.json';
     private const INPUT_FILE = '/export-files/%s/%s_input.json';
-    private const OUTPUT_FILE = '/export-files/%s/%s_%s_output.json';
+    private const OUTPUT_FILE = '/export-files/%s/%s_output.json';
 
     public function __construct(
         private MorrowindUespParserService $morrowindUespParserService,
@@ -36,15 +28,15 @@ class ParseOnlineData extends Command
      *
      * @var string
      */
-    protected $signature = 'parse-data {game=skyrim} {source=uesp}';
+    protected $signature = 'reindex {game=skyrim}';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'parse data. receives 2 arguments : game and source. game possible values:
-    "skyrim", "oblivion", "morrowind"; source possible values: "uesp", "fandom"';
+    protected $description = 'add `ingredients` field to effects; game param possible values:
+    "skyrim", "oblivion", "morrowind"';
 
     /**
      * Execute the console command.
@@ -54,34 +46,28 @@ class ParseOnlineData extends Command
     public function handle(): int
     {
         $gameName = $this->argument('game');
-        $source = $this->argument('source');
 
-        if (!$gameName || !$source) {
+        if (!$gameName) {
             $this->error('Something went wrong!');
 
-            throw new LogicException('No game or source argument supplied');
+            throw new LogicException('No game argument supplied');
         }
-        $this->parseOnlineData($gameName, $source);
+        $this->reindex($gameName);
         $this->info('Done.');
 
         return 0;
     }
 
-    private function parseOnlineData(string $gameName, string $source): void
+    private function reindex(string $gameName): void
     {
-        $filePath = sprintf(self::SOURCE_FILE_FORMAT, $gameName, $source);
-        $rawDataString = $this->getRawData(storage_path() . $filePath);
-        $this->info('Source file for parsing ' . $filePath);
-
         $inputFilePath = sprintf(self::INPUT_FILE, $gameName, $gameName);
         $this->createInputFileFromCurrentIfNotExists($inputFilePath, $gameName);
         $inputArray = json_decode($this->getRawData(public_path() . $inputFilePath), true);
         $this->info('Getting input from ' . $inputFilePath);
 
-        $parser = $this->getParser($gameName, $source);
-        $dataArray = $parser->parse($rawDataString, $inputArray);
+        $dataArray = $this->reindexArray($inputArray);
 
-        $outputFilePath = sprintf(self::OUTPUT_FILE, $gameName, $gameName, $source);
+        $outputFilePath = sprintf(self::OUTPUT_FILE, $gameName, $gameName);
         $this->outputArrayToJsonFile($dataArray, public_path() . $outputFilePath);
         $this->info('Output file ' . $outputFilePath . ' updated.');
     }
@@ -101,26 +87,6 @@ class ParseOnlineData extends Command
         file_put_contents($filename, $json);
     }
 
-    private function getParser(string $gameName, string $source): ParserInterface
-    {
-        $parser = null;
-        $parser = match ([$gameName, $source]) {
-            ['skyrim', 'uesp'] => $this->skyrimUespParserService,
-            ['skyrim', 'fandom'] => null,
-            ['oblivion', 'uesp'] => $this->oblivionUespParserService,
-            ['oblivion', 'fandom'] => null,
-            ['morrowind', 'uesp'] => $this->morrowindUespParserService,
-            ['morrowind', 'fandom'] => null,
-            default => null,
-        };
-
-        if (!$parser) {
-            throw new Exception('Cannot find parser for chosen game and source.');
-        }
-
-        return $parser;
-    }
-
     private function createInputFileFromCurrentIfNotExists(string $inputFilePath, string $gameName)
     {
         if (!file_exists(public_path().$inputFilePath)) {
@@ -129,5 +95,26 @@ class ParseOnlineData extends Command
             );
             file_put_contents(public_path().$inputFilePath, $currentJsonString);
         }
+    }
+
+    private function reindexArray(mixed $inputArray): array
+    {
+        $reindexed = $inputArray;
+        $ingredients = $inputArray['ingredients'];
+        foreach ($ingredients as $ingredient) {
+            $effectNames = $ingredient['effects'];
+            foreach ($effectNames as $position => $effectName) {
+                $effectArr = $reindexed['effects'][$effectName];
+
+                if (array_key_exists('ingredients', $effectArr)) {
+                    $ingredientsInThisPosition = $effectArr['ingredients'][$position];
+
+                    if (!in_array($ingredient['name'], $ingredientsInThisPosition)) {
+                        $reindexed['effects'][$effectName]['ingredients'][$position][] = $ingredient['name'];
+                    }
+                }
+            }
+        }
+        return $reindexed;
     }
 }
